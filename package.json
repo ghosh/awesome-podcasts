@@ -1,0 +1,18 @@
+{
+  "name": "awesome-podcasts",
+  "version": "1.0.0",
+  "description": "Podcasts for hustlers",
+  "main": "readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Indrashish Ghosh",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-hb": "^2.6.5",
+    "gulp-hbs": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "handlebars": "^4.0.5"
+  }
+}

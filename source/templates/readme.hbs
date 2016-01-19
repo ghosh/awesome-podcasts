@@ -1,0 +1,87 @@
+# Awesome Podcasts
+
+> Podcasts for designers, developers, product managers, entrepreneurs, startups etc.
+
+
+**Note**  
+Due to the nature of podcasts, it is difficult to group them into separate categories. The boundaries between them are blurred and while I have tried my best, there is bound to be some overlap. You may find a podcast in the design category which also talks about lifestyle and business. Incase you disagree with the categorization and feel that it belongs to a different category please feel free to open an issue here. Pull requests are most welcome.
+
+**Contributing**  
+To include your podcast, please add to to the bottom of the `podcasts.json` file. *Better instructions coming soon*
+
+**Podcast Categoreis**  
+
+- [Design](#design) : Mostly related to UX, Interface and Print Design
+- [Development](#development) : Programming language related podcasts come in here
+- [Design and Dev](#design-and-dev) : Design, Code, Business, etc. Front end.
+- [Business](#business) : Entrepreneurship, Business, Startups
+- [lifestyle](#lifestyles) : Productivity, Focus, Lifestlye etc
+
+## Design
+
+{{#with podcasts}}
+  {{#each podcasts}}
+  {{#is category "Design"}}
+  - [{{name}}]({{source}})  
+    {{description}}  
+    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+
+  {{/is}}
+  {{/each}}
+{{/with}}
+
+
+## Development
+
+{{#with podcasts}}
+  {{#each podcasts}}
+  {{#is category "Development"}}
+  - [{{name}}]({{source}})  
+    {{description}}  
+    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+
+  {{/is}}
+  {{/each}}
+{{/with}}
+
+
+## Design and Dev
+
+{{#with podcasts}}
+  {{#each podcasts}}
+  {{#is category "Design and Dev"}}
+  - [{{name}}]({{source}})  
+    {{description}}  
+    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+
+  {{/is}}
+  {{/each}}
+{{/with}}
+
+
+## Business
+
+{{#with podcasts}}
+  {{#each podcasts}}
+  {{#is category "Business"}}
+  - [{{name}}]({{source}})  
+    {{description}}  
+    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+
+  {{/is}}
+  {{/each}}
+{{/with}}
+
+
+## Lifestyle
+
+{{#with podcasts}}
+  {{#each podcasts}}
+  {{#is category "Lifestyle"}}
+  - [{{name}}]({{source}})  
+    {{description}}  
+    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+
+  {{/is}}
+  {{/each}}
+{{/with}}
