@@ -1,10 +1,8 @@
 
-var gulp          = require('gulp'),
-    harmonize     = require('harmonize')(),
-    handlebars    = require('handlebars'),
-    data          = require('gulp-data'),
-    hb           = require('gulp-hb'),
-    rename       = require('gulp-rename');
+var gulp       = require('gulp'),
+    handlebars = require('handlebars'),
+    hb         = require('gulp-hb'),
+    rename     = require('gulp-rename');
 
 
 gulp.task('default', function () {
