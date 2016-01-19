@@ -15,14 +15,14 @@ To include your podcast, please add to to the bottom of the `podcasts.json` file
 - [Development](#development) : Programming language related podcasts come in here
 - [Design and Dev](#design-and-dev) : Design, Code, Business, etc. Front end.
 - [Business](#business) : Entrepreneurship, Business, Startups
-- [lifestyle](#lifestyles) : Productivity, Focus, Lifestlye etc
+- [Lifestyle](#lifestyle) : Productivity, Focus, Lifestlye etc
 
 ## Design
 
 {{#with podcasts}}
   {{#each podcasts}}
   {{#is category "Design"}}
-  - [{{name}}]({{source}})  
+  - [{{name}}]({{source}}){:target="_blank"}  
     {{description}}  
     [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
 

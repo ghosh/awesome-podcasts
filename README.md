@@ -19,111 +19,111 @@ To include your podcast, please add to to the bottom of the `podcasts.json` file
 
 ## Design
 
-  - [Brain Sparks](https://www.uie.com/brainsparks/topics/podcasts/)  
+  - [Brain Sparks](https://www.uie.com/brainsparks/topics/podcasts/){:target="_blank"}  
     This podcast is hosted by usability and UI design expert, Jared Spool. It offers tona of value with many industry leaders sharing insights on usability, UX design, and UI design.  
     [iTunes](itpc://www.uie.com/brainsparks/feed/podcast/) • [RSS](https://www.uie.com/brainsparks/feed/podcast/) • [Android](https://subscribeonandroid.com/www.uie.com/brainsparks/feed/podcast/) • [Soundcloud]()
 
-  - [The Dirt Show](http://www.freshtilledsoil.com/category/podcast/)  
+  - [The Dirt Show](http://www.freshtilledsoil.com/category/podcast/){:target="_blank"}  
     The Dirt Show is a podcast hosted by the team behind the UX design agency, Fresh Tilled Soil. One cool thing about this podcast is some topics follow a mini-series format, with multiple episodes and different guests talking about the same topic. For example, they have a mini-series on topics such as &quot;designing your career&quot; and &quot;designing the future&quot;.  
     [iTunes](https://itunes.apple.com/us/podcast/fresh-tilled-soil-podcast/id569204776) • [RSS](http://feeds.feedburner.com/FreshTilledSoilPodcast) • [Android]() • [Soundcloud]()
 
-  - [The UX Intern](http://theuxintern.com/)  
+  - [The UX Intern](http://theuxintern.com/){:target="_blank"}  
     A monthly podcast interviewing seasoned User Experience Designers from the perspective of a UX Intern.  
     [iTunes](https://itunes.apple.com/us/podcast/the-ux-intern/id684613036) • [RSS](http://theuxintern.com/itunes-feed/) • [Android]() • [Soundcloud]()
 
-  - [UX Podcast](http://uxpodcast.com/)  
+  - [UX Podcast](http://uxpodcast.com/){:target="_blank"}  
     UX Podcast is for people passionate about balancing business, technology and users within the realm of digital media. Moving the conversation beyond the traditional realm of User Experience.  
     [iTunes](itpc://feeds.feedburner.com/uxpodcast) • [RSS](http://feeds.feedburner.com/uxpodcast) • [Android]() • [Soundcloud]()
 
-  - [UX and Growth](http://www.uxandgrowth.com/)  
+  - [UX and Growth](http://www.uxandgrowth.com/){:target="_blank"}  
     Every Monday, HubSpot Design, UX, &amp; Growth geeks Matt Rheault, Austin Knight, and Geoff Daigle sit down for a couple of beers while discussing User Experience and Growth tactics.  
     [iTunes](https://itunes.apple.com/us/podcast/ux-and-growth-podcast/id1016143291?mt&#x3D;2) • [RSS]() • [Android]() • [Soundcloud]()
 
-  - [UX Pod](http://uxpod.com/)  
+  - [UX Pod](http://uxpod.com/){:target="_blank"}  
     Gerry Gaffney set up the User Experience podcast in 2006, with a view to providing a platform for discussing topics of interest to practitioners or others with an interest in UX.  
     [iTunes](https://itunes.apple.com/podcast/uxpod-user-experience-podcast/id163924332?mt&#x3D;2) • [RSS](http://uxpod.com/feed/) • [Android]() • [Soundcloud]()
 
-  - [UX Mastery](http://uxmastery.com/category/podcast/)  
+  - [UX Mastery](http://uxmastery.com/category/podcast/){:target="_blank"}  
     UX Mastery is a website that hosts a lot of useful articles and content related to user experience design. The site also has an infrequently updated podcast.  
     [iTunes]() • [RSS](http://uxmastery.libsyn.com/rss) • [Android]() • [Soundcloud]()
 
-  - [UX Discovery Session](http://uxdiscoverysession.com/)  
+  - [UX Discovery Session](http://uxdiscoverysession.com/){:target="_blank"}  
     A discovery session is an opportunity to learn about a relevant topic, generate ideas that expand a new technique or practice, or brainstorm concepts and ideas for the next new thing.  
     [iTunes](https://itunes.apple.com/ca/podcast/discovery-session...-by-gerard/id693746926?mt&#x3D;2&amp;ign-mpt&#x3D;uo%3D4) • [RSS]() • [Android]() • [Soundcloud]()
 
-  - [Incremental UX](http://incrementalux.com/podcast/)  
+  - [Incremental UX](http://incrementalux.com/podcast/){:target="_blank"}  
     Hosted by Vinay Raghu. This podcast learns from people in the industry. Hour long episodes dive deep into specific topics with industry experts   
     [iTunes](https://itunes.apple.com/us/podcast/incrementalux-podcast/id1035443799) • [RSS](http://feeds.feedburner.com/incrementalux) • [Android]() • [Soundcloud]()
 
-  - [UX Defenders](http://userdefenders.com/)  
+  - [UX Defenders](http://userdefenders.com/){:target="_blank"}  
     This podcast is aimed at highlighting those leading the way in their craft by diving deeper into who they are, and what makes them tick/successful, in order to inspire and equip those aspiring to do the same.  
     [iTunes](https://itunes.apple.com/us/podcast/user-defenders-podcast-inspiring/id1055121160?mt&#x3D;2&amp;ls&#x3D;1) • [RSS](http://userdefenders.com/podcast/feed/) • [Android]() • [Soundcloud]()
 
-  - [Seanwes Podcast](http://seanwes.com/podcast/)  
+  - [Seanwes Podcast](http://seanwes.com/podcast/){:target="_blank"}  
     Join entrepreneurs Sean McCabe and Ben Toalson as they let you inside their discussions on the many facets of making a living online. You&#x27;ll come away from every episode with something of value that you can apply to your business. Tangible insights on creativity and business every single Wednesday and Friday.  
     [iTunes](https://itunes.apple.com/us/podcast/seanwes-podcast/id685421236) • [RSS](http://seanwes.com/feed/podcast) • [Android]() • [Soundcloud]()
 
-  - [Let&#x27;s Make Mistakes](http://www.muleradio.net/mistakes/)  
+  - [Let&#x27;s Make Mistakes](http://www.muleradio.net/mistakes/){:target="_blank"}  
     Award-winning designer Mike Montiero of Mule Design Studios talks shop with an assorted collection of co-hosts about standard design concepts, from ideation to implementation, and how to leverage every ounce of creativity throughout the process.  
     [iTunes](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id&#x3D;432550963) • [RSS](http://feeds.muleradio.net/mistakes) • [Android]() • [Soundcloud]()
 
-  - [Young Guns Show](http://younggunsshow.com/)  
+  - [Young Guns Show](http://younggunsshow.com/){:target="_blank"}  
     The Young Guns Show aims to feature and inspire the young guns in the web industry — the guys and gals that aren&#x27;t waiting for &quot;someday&quot; to do amazing things.  
     [iTunes](https://itunes.apple.com/us/podcast/young-guns-show/id507917469) • [RSS](http://feeds.feedburner.com/younggunsshow) • [Android]() • [Soundcloud]()
 
-  - [The Web Ahead](http://5by5.tv/webahead)  
+  - [The Web Ahead](http://5by5.tv/webahead){:target="_blank"}  
     Conversations with world experts on changing technologies and future of the web. The Web Ahead is your shortcut to keeping up. Hosted by Jen Simmons.  
     [iTunes](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id&#x3D;464936442) • [RSS](http://feeds.5by5.tv/webahead) • [Android]() • [Soundcloud]()
 
-  - [Typeradio](http://www.typeradio.org/)  
+  - [Typeradio](http://www.typeradio.org/){:target="_blank"}  
     Typeradio is a regular podcast station that covers all things type, including fonts, typography and trends.  
     [iTunes](https://itunes.apple.com/us/podcast/typeradio-podcast/id77801288?mt&#x3D;2) • [RSS]() • [Android]() • [Soundcloud]()
 
-  - [BizCraft](http://unmatchedstyle.com/bizcraft)  
+  - [BizCraft](http://unmatchedstyle.com/bizcraft){:target="_blank"}  
     The bi-weekly podcast. hosted by Carl Smith of nGen Works and Gene Crawford of UnmatchedStyle. The primary topic is the business side of digital design.  
     [iTunes](https://itunes.apple.com/us/podcast/unmatched-style-bizcraft/id537301913) • [RSS](http://feeds.feedburner.com/bizcraft) • [Android]() • [Soundcloud]()
 
-  - [Iterate Podcast](https://bjango.com/articles/iterate/)  
+  - [Iterate Podcast](https://bjango.com/articles/iterate/){:target="_blank"}  
     Iterate is a fortnightly podcast, focusing on mobile and app design for all iOS, Mac, Android and other platforms.  
     [iTunes](https://itunes.apple.com/us/podcast/iterate/id447063932) • [RSS]() • [Android]() • [Soundcloud]()
 
-  - [Data Stories](http://datastori.es/)  
+  - [Data Stories](http://datastori.es/){:target="_blank"}  
     Enrico Bertini and Moritz Stefaner discuss the latest developments in data analytics, visualization and related topics.  
     [iTunes](https://itunes.apple.com/us/podcast/data-stories/id502854960?mt&#x3D;2) • [RSS](http://datastori.es/feed/) • [Android]() • [Soundcloud]()
 
-  - [Adventures In Design](http://www.adventuresindesignmarket.com/)  
+  - [Adventures In Design](http://www.adventuresindesignmarket.com/){:target="_blank"}  
     Graphic design gossip and artistic growing pains through the eyes of two handsome DIY poster designers and their friends.  
     [iTunes](https://itunes.apple.com/us/podcast/adventures-in-design/id503341322) • [RSS]() • [Android]() • [Soundcloud]()
 
-  - [Design Review](http://www.designreviewpodcast.com/)  
+  - [Design Review](http://www.designreviewpodcast.com/){:target="_blank"}  
     A weekly podcast about products from a unique designer perspective! Your hosts are Chris Liu and Jonathan Shariat. Each week, we will go through a product and talk about the experience and hopefully it will be interesting and informative, along with entertaining! So join us here every week!  
     [iTunes](https://itunes.apple.com/us/podcast/design-review/id947753823?mt&#x3D;2) • [RSS](http://www.designreviewpodcast.com/design-review.rss) • [Android]() • [Soundcloud]()
 
-  - [99% Invisible](http://99percentinvisible.org/)  
+  - [99% Invisible](http://99percentinvisible.org/){:target="_blank"}  
     99% Invisible (99 Percent Invisible) is a weekly exploration of the process and power of design and architecture. From award winning producer Roman Mars, KALW in San Francisco, and Radiotopia from PRX.   
     [iTunes](https://itunes.apple.com/us/podcast/id394775318) • [RSS](http://99percentinvisible.org/feed/) • [Android]() • [Soundcloud]()
 
-  - [On the Grid](http://5by5.tv/onthegrid)  
+  - [On the Grid](http://5by5.tv/onthegrid){:target="_blank"}  
     Thinking out loud about design weekly.  
     [iTunes](https://itunes.apple.com/us/podcast/on-the-grid/id547928774) • [RSS](http://feeds.5by5.tv/onthegrid) • [Android]() • [Soundcloud]()
 
-  - [Design Matters](http://designobserver.com/topic/designmatters/1039)  
+  - [Design Matters](http://designobserver.com/topic/designmatters/1039){:target="_blank"}  
     Design Matters with Debbie Millman is a thought-provoking internet podcast, which profiles industry-leading graphic designers, change agents, artists, writers and educators.   
     [iTunes](https://itunes.apple.com/au/podcast/design-matters-debbie-millman/id328074695) • [RSS]() • [Android]() • [Soundcloud]()
 
-  - [Design Details](http://spec.fm/podcasts/design-details)  
+  - [Design Details](http://spec.fm/podcasts/design-details){:target="_blank"}  
     A show about the people who design our favorite products. Hosted by Bryn Jackson and Brian Lovin.  
     [iTunes](https://itunes.apple.com/us/podcast/design-details/id947191070) • [RSS](http://simplecast.fm/podcasts/1034/rss) • [Android]() • [Soundcloud]()
 
-  - [Beyond This Point](http://beyondthispoint.design/)  
+  - [Beyond This Point](http://beyondthispoint.design/){:target="_blank"}  
     Beyond This Point is a series of conversations engaging the creative thinkers who inspire us. Each episode, Gabriel Stromberg, Creative Director of Civilization, sits down with artists, business owners, designers, and leaders of all types to put a spotlight on different ways of seeing, thinking, and making.  
     [iTunes](https://itunes.apple.com/us/podcast/beyond-this-point/id1065144310) • [RSS]() • [Android]() • [Soundcloud]()
 
-  - [One Design Podcast](http://onedesign.guide/)  
+  - [One Design Podcast](http://onedesign.guide/){:target="_blank"}  
     A fortnightly discussion about digital design with Kris Jeary, Bridget Tann and Andrew Fairlie  
     [iTunes](https://itunes.apple.com/gb/podcast/one-design-podcast/id967765318) • [RSS](http://onedesign.libsyn.com/rss) • [Android]() • [Soundcloud]()
 
-  - [Tentative](http://tentative.fm/)  
+  - [Tentative](http://tentative.fm/){:target="_blank"}  
     Tentative is a podcast about digital product design, hosted by thoughtbot designers Reda Lemeden &amp; Kyle Fiedler.  
     [iTunes](https://itunes.apple.com/us/podcast/tentative/id978483997) • [RSS](http://simplecast.fm/podcasts/1088/rss) • [Android]() • [Soundcloud]()
 
