@@ -6,7 +6,7 @@
         "description": "This podcast is hosted by usability and UI design expert, Jared Spool. It offers tona of value with many industry leaders sharing insights on usability, UX design, and UI design.",
         "category": "Design",
         "source": "https://www.uie.com/brainsparks/topics/podcasts/",
-        "itunes": "itpc://www.uie.com/brainsparks/feed/podcast/",
+        "itunes": "https://itunes.apple.com/us/podcast/uie-brain-sparks-podcasts/id119728465?mt=2",
         "android": "https://subscribeonandroid.com/www.uie.com/brainsparks/feed/podcast/",
         "rss": "https://www.uie.com/brainsparks/feed/podcast/"
     },
@@ -34,7 +34,7 @@
         "description": "UX Podcast is for people passionate about balancing business, technology and users within the realm of digital media. Moving the conversation beyond the traditional realm of User Experience.",
         "category": "Design",
         "source": "http://uxpodcast.com/",
-        "itunes": "itpc://feeds.feedburner.com/uxpodcast",
+        "itunes": "https://itunes.apple.com/us/podcast/ux-podcast/id438896324?mt=2",
         "rss": "http://feeds.feedburner.com/uxpodcast"
     },
     {

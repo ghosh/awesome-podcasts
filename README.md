@@ -40,7 +40,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 
 - **[Brain Sparks](https://www.uie.com/brainsparks/topics/podcasts/)**  
   This podcast is hosted by usability and UI design expert, Jared Spool. It offers tona of value with many industry leaders sharing insights on usability, UX design, and UI design.  
-      [iTunes](itpc://www.uie.com/brainsparks/feed/podcast/)
+      [iTunes](https://itunes.apple.com/us/podcast/uie-brain-sparks-podcasts/id119728465?mt&#x3D;2)
        • [RSS](https://www.uie.com/brainsparks/feed/podcast/)
        • [Android](https://subscribeonandroid.com/www.uie.com/brainsparks/feed/podcast/)
 
@@ -136,7 +136,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 
 - **[UX Podcast](http://uxpodcast.com/)**  
   UX Podcast is for people passionate about balancing business, technology and users within the realm of digital media. Moving the conversation beyond the traditional realm of User Experience.  
-      [iTunes](itpc://feeds.feedburner.com/uxpodcast)
+      [iTunes](https://itunes.apple.com/us/podcast/ux-podcast/id438896324?mt&#x3D;2)
        • [RSS](http://feeds.feedburner.com/uxpodcast)
 
 - **[UX and Growth](http://www.uxandgrowth.com/)**  
