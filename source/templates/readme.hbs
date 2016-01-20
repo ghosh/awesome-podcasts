@@ -1,13 +1,14 @@
 # Awesome Podcasts
 
-> Podcasts for designers, developers, product managers, entrepreneurs, startups etc.
+> A curated list of podcasts for designers, developers, product managers, entrepreneurs, startups etc.
 
-
+  
+  
 **Note**  
-Due to the nature of podcasts, it is difficult to group them into separate categories. The boundaries between them are blurred and while I have tried my best, there is bound to be some overlap. You may find a podcast in the design category which also talks about lifestyle and business. Incase you disagree with the categorization and feel that it belongs to a different category please feel free to open an issue here. Pull requests are most welcome.
+Due to the nature of podcasts, it is difficult to cleanly classify them into different categories. Most podcast cover a wide range of topics and it blurs the boundries between topics. This is a very broad categorization and there is bound to be some overlap between categories. For example - You may find a podcast in the design category which also talks about lifestyle and business. Incase you disagree with the categorization and feel that a certain podcasts would be a better fit in a different category, please feel free to open an issue [here](https://github.com/Ghosh/awesome-podcasts/issues). Pull requests are most welcome.
 
 **Contributing**  
-To include your podcast, please add to to the bottom of the `podcasts.json` file. *Better instructions coming soon*
+To include a podcast, please add to to the bottom of the `podcasts.json` file. *Detailed instructions coming soon*
 
 **Podcast Categoreis**  
 
@@ -22,9 +23,7 @@ To include your podcast, please add to to the bottom of the `podcasts.json` file
 {{#with podcasts}}
   {{#each podcasts}}
   {{#is category "Design"}}
-  - **[{{name}}]({{source}})**  
-    {{description}}  
-    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+  {{> item}}
 
   {{/is}}
   {{/each}}
@@ -36,9 +35,7 @@ To include your podcast, please add to to the bottom of the `podcasts.json` file
 {{#with podcasts}}
   {{#each podcasts}}
   {{#is category "Development"}}
-  - **[{{name}}]({{source}})**  
-    {{description}}  
-    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+  {{> item}}
 
   {{/is}}
   {{/each}}
@@ -50,9 +47,7 @@ To include your podcast, please add to to the bottom of the `podcasts.json` file
 {{#with podcasts}}
   {{#each podcasts}}
   {{#is category "Design and Dev"}}
-  - **[{{name}}]({{source}})**  
-    {{description}}  
-    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+  {{> item}}
 
   {{/is}}
   {{/each}}
@@ -64,9 +59,7 @@ To include your podcast, please add to to the bottom of the `podcasts.json` file
 {{#with podcasts}}
   {{#each podcasts}}
   {{#is category "Business"}}
-  - **[{{name}}]({{source}})**  
-    {{description}}  
-    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+  {{> item}}
 
   {{/is}}
   {{/each}}
@@ -78,9 +71,7 @@ To include your podcast, please add to to the bottom of the `podcasts.json` file
 {{#with podcasts}}
   {{#each podcasts}}
   {{#is category "Lifestyle"}}
-  - **[{{name}}]({{source}})**  
-    {{description}}  
-    [iTunes]({{itunes}}) • [RSS]({{rss}}) • [Android]({{android}}) • [Soundcloud]({{soundcloud}})
+  {{> item}}
 
   {{/is}}
   {{/each}}

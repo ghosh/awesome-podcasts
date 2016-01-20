@@ -10,7 +10,8 @@ gulp.task('default', function () {
     .pipe(hb({
       bustCache: true,
       data: './podcasts.json',
-      helpers: './source/helpers/**/*.js'
+      helpers: './source/helpers/**/*.js',
+      partials: './source/templates/partials/**/*.hbs'
     }))
     .pipe(rename("README.md"))
     .pipe(gulp.dest('./'))
