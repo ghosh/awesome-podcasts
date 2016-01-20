@@ -12,67 +12,67 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 
 ## Categories
 
-- **[Design](#design)** : Mostly related to UX, Interface and Print Design
-- **[Development](#development)** : Programming language related podcasts come in here
-- **[Design and Dev](#design-and-dev)** : Design, Code, Business, etc. Front end.
-- **[Business](#business)** : Entrepreneurship, Business, Startups
-- **[Lifestyle](#lifestyle)** : Productivity, Focus, Lifestlye etc
+- **[Design](#design)** : User Experience, User Interface, Print Design, Graphic Design etc.
+- **[Development](#development)** : Programming Languages, Workflows, Tools etc.
+- **[Design and Dev](#design-and-dev)** : Front End, Design, Code etc. 
+- **[Business](#business)** : Entrepreneurship, Business, Startups, Product etc.
+- **[Lifestyle](#lifestyle)** : Productivity, Focus, Lifestyle etc.
 
 ## Design
 
 {{#with podcasts}}
-  {{#each podcasts}}
-  {{#is category "Design"}}
-  {{> item}}
+  {{#eachWithSort podcasts "name"}}
+    {{#is category "Design"}}
+    {{> item}}
 
-  {{/is}}
-  {{/each}}
+    {{/is}}
+  {{/eachWithSort}}
 {{/with}}
 
 
 ## Development
 
 {{#with podcasts}}
-  {{#each podcasts}}
+  {{#eachWithSort podcasts "name"}}
   {{#is category "Development"}}
   {{> item}}
 
   {{/is}}
-  {{/each}}
+  {{/eachWithSort}}
 {{/with}}
 
 
 ## Design and Dev
 
 {{#with podcasts}}
-  {{#each podcasts}}
+  {{#eachWithSort podcasts "name"}}
   {{#is category "Design and Dev"}}
   {{> item}}
 
   {{/is}}
-  {{/each}}
+  {{/eachWithSort}}
 {{/with}}
 
 
 ## Business
 
 {{#with podcasts}}
-  {{#each podcasts}}
+  {{#eachWithSort podcasts "name"}}
   {{#is category "Business"}}
   {{> item}}
 
   {{/is}}
-  {{/each}}
+  {{/eachWithSort}}
 {{/with}}
 
 
 ## Lifestyle
 
 {{#with podcasts}}
-  {{#each podcasts}}
+  {{#eachWithSort podcasts "name"}}
   {{#is category "Lifestyle"}}
   {{> item}}
 
   {{/is}}
-  {{/each}}
+  {{/eachWithSort}}
 {{/with}}
