@@ -416,6 +416,11 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
       [iTunes](https://itunes.apple.com/au/podcast/web-agency-podcast/id751014899)
        • [RSS](http://www.webagencypodcast.com/feed/)
 
+- **[What&#x27;s Tech?](http://www.theverge.com/whatstech)**  
+  We live in the future, where drones skim the sky, corporations enter the space race, and smart watches track our every movement. But how? And why? What&#x27;s Tech invites experts to explain the technology bit by bit, in clear, brief, enjoyable audio nuggets. These days, technology is everywhere. Let&#x27;s make sense of what&#x27;s around us.  
+      [iTunes](https://itunes.apple.com/us/podcast/whats-tech/id966621017?mt&#x3D;2)
+       • [RSS](http://feeds.podtrac.com/SCOrL45pOotI)
+
 - **[Working Out](http://workingoutpodcast.com/)**  
   Join Ashley Baxter and Paddy Donnelly on a journey to figure out how to create a business doing what you love. Is it possible to make a living from your hobby? On Working out, Ashley &amp; Paddy discuss their own personal journeys in creating their passion-based business. This is about the expedition, the here and now, the daily challenges and achievements towards getting paid for your passion.  
       [iTunes](https://itunes.apple.com/gb/podcast/working-out/id875239968)
