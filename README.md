@@ -44,6 +44,11 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
        • [RSS](https://www.uie.com/brainsparks/feed/podcast/)
        • [Android](https://subscribeonandroid.com/www.uie.com/brainsparks/feed/podcast/)
 
+- **[Build and Launch](http://buildandlaunch.net/)**  
+  A weekly podcast focused on shipping small projects. Every week I&#x27;ll take you on an adventure of launching a new project. You&#x27;ll hear the launch stats, hurdles I had to overcome, and how you can learn from my mistakes.  
+      [iTunes](https://itunes.apple.com/us/podcast/build-launch/id961518861)
+       • [RSS](http://simplecast.fm/podcasts/323/rss)
+
 - **[Data Stories](http://datastori.es/)**  
   Enrico Bertini and Moritz Stefaner discuss the latest developments in data analytics, visualization and related topics.  
       [iTunes](https://itunes.apple.com/us/podcast/data-stories/id502854960?mt&#x3D;2)
@@ -350,6 +355,11 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   Forwarding the movement for product excellence. Discussions about the art, craft and profession for managing products that contribute value. All aspects of customer development, user experience, product innovation, design, development, marketing and scaling.  
       [iTunes](https://itunes.apple.com/us/podcast/global-product-management/id464701967)
 
+- **[Go Media](http://gomedia.com/zine/podcast/)**  
+  Go Media&#x27;s Bryan Garvin sits down with members of the Go Media team and community to discuss the business of design and how to improve the quality of your work and life.  
+      [iTunes](https://itunes.apple.com/podcast/id561456109)
+       • [RSS](http://gomedia.com/zine/podcast/feed/)
+
 - **[Inside Intercom](https://www.intercom.io/podcast)**  
   Conversations with practitioners from the worlds of product management, design, startups and marketing.  
       [iTunes](https://itunes.apple.com/ie/podcast/inside-intercom-podcast/id996103731)
@@ -376,6 +386,11 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   A series about what it&#x27;s really like to start a business.  
       [iTunes](https://itunes.apple.com/us/podcast/startup-podcast/id913805339)
        • [RSS](http://feeds.gimletmedia.com/hearstartup)
+
+- **[The Businessology Show](http://www.businessology.biz/show/)**  
+  A podcast about the business of design, and the design of business.  
+      [iTunes](https://itunes.apple.com/us/podcast/the-businessology-show/id595500099)
+       • [RSS](http://www.spreaker.com/show/635488/episodes/feed)
 
 - **[The Distance](https://thedistance.com/)**  
   The Distance features stories of private businesses that have been operating for at least 25 years and the people who got them there. Hear business owners share their stories of hard work, survival and building something that lasts. The Distance is a production of Basecamp, the company behind the leading project management app.  
@@ -434,6 +449,10 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   Once in a while, 99U sits down with a leading creative, thinker, or entrepreneur to delve deep into their one-of-a-kind insights about the creative process.  
       [iTunes](https://itunes.apple.com/in/podcast/the-99u-podcast/id886171440?mt&#x3D;2)
 
+- **[After the Jump](http://heritageradionetwork.org/series/after-the-jump/)**  
+  Through a series of interviews with designers, store owners and up-and-coming members of the creative community, Grace will delve deeper into the world of independent artists. From exploring the day-to-day lives of contemporary makers to discussing the challenges they face, After the Jump will take the conversation off the screen and into real life.  
+      [iTunes](https://itunes.apple.com/us/podcast/after-the-jump/id523653429?mt&#x3D;2)
+
 - **[Back to Work](http://5by5.tv/b2w)**  
   Back to Work is an award winning talk show with Merlin Mann and Dan Benjamin discussing productivity, communication, work, barriers, constraints, tools, and more.  
       [iTunes](https://itunes.apple.com/podcast/back-to-work/id415535037)
@@ -454,6 +473,10 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
       [iTunes](https://itunes.apple.com/us/podcast/the-news/id602266713)
        • [RSS](http://feeds.5by5.tv/news)
 
+- **[Greyscalegorilla Podcast](http://greyscalegorilla.com/)**  
+  Nick Campbell&#x27;s Show about How to Be Creative and Get Paid  
+      [iTunes](https://itunes.apple.com/podcast/id433976980)
+
 - **[Hack to Start](http://hacktostart.com/)**  
   A podcast focused on interesting people and the innovative ways they achieve success.  
       [iTunes](https://itunes.apple.com/ca/podcast/hacktostart/id929857801)
@@ -469,6 +492,11 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
       [iTunes](https://itunes.apple.com/us/podcast/late-nights-with-trav-and-los/id944869246)
        • [RSS](http://simplecast.fm/podcasts/311/rss)
 
+- **[Mac Power User](https://www.relay.fm/mpu)**  
+  Learn about getting the most from your Apple technology with focused topics and workflow guests. Creating Mac Power Users, one geek at a time since 2009.  
+      [iTunes](https://itunes.apple.com/us/podcast/mac-power-users/id458066753?mt&#x3D;2)
+       • [RSS](https://www.relay.fm/mpu/feed)
+
 - **[Nice To Meet You](http://www.vanschneider.com/show/)**  
   Nice To Meet You is a personal conversation based podcasts with makers, creators and no bullshitters  
       [iTunes](https://itunes.apple.com/us/podcast/nice-to-meet-you/id1050960981?mt&#x3D;2)
@@ -482,6 +510,10 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   A weekly showcase of the world&#x27;s Black graphic designers, web designers, and web developers.  
       [iTunes](https://itunes.apple.com/us/podcast/revision-path/id834173190)
        • [RSS](http://simplecast.fm/podcasts/102/rss)
+
+- **[The Accidental Creative](http://www.accidentalcreative.com/category/podcasts/)**  
+  The Accidental Creative podcast shares how to build practical, everyday practices that help you stay prolific, brilliant and healthy in life and work.   
+      [iTunes](https://itunes.apple.com/us/podcast/accidental-creative-creativity/id93424211?mt&#x3D;2)
 
 - **[The Balance](http://www.thebalance.cc/)**  
   Discussing the balance between creativity &amp; everything that fuels it  
@@ -504,12 +536,12 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
        • [RSS](http://simplecast.fm/podcasts/122/rss)
 
 - **[This Developer&#x27;s Life](http://thisdeveloperslife.com/)**  
-  A podcast about developers and their lives.  
+  Bringing a human slant to the tech industry  
       [iTunes](https://itunes.apple.com/us/podcast/this-developers-life/id389727545)
        • [RSS](http://feeds.feedburner.com/thisdeveloperslife)
 
 - **[This Developer&#x27;s Life](http://thisdeveloperslife.com/)**  
-  Bringing a human slant to the tech industry  
+  A podcast about developers and their lives.  
       [iTunes](https://itunes.apple.com/us/podcast/this-developers-life/id389727545)
        • [RSS](http://feeds.feedburner.com/thisdeveloperslife)
 

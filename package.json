@@ -9,9 +9,15 @@
   "author": "Indrashish Ghosh",
   "license": "MIT",
   "devDependencies": {
+    "del": "^2.2.0",
     "gulp": "^3.9.0",
+    "gulp-google-spreadsheets": "^1.2.0",
     "gulp-hb": "^2.6.5",
+    "gulp-jsbeautify": "^0.1.1",
+    "gulp-json-editor": "^2.2.1",
     "gulp-rename": "^1.2.2",
-    "handlebars": "^4.0.5"
+    "gulp-streamify": "^1.0.2",
+    "handlebars": "^4.0.5",
+    "run-sequence": "^1.1.5"
   }
 }
