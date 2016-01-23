@@ -842,5 +842,20 @@
         "source": "http://gomedia.com/zine/podcast/",
         "itunes": "https://itunes.apple.com/podcast/id561456109",
         "rss": "http://gomedia.com/zine/podcast/feed/"
+    },
+    {
+        "name": "The Twenty Minute VC",
+        "description": "The Twenty Minute VC takes you inside the world of Venture Capital, Startup Funding and The Pitch. The Twenty Minute VC provides an instructional guide as to what it takes to get employed in the Venture Capital industry, with VCs giving specific advice on how to get noticed from the crowd and increasing your chances of employment.",
+        "category": "Business",
+        "source": "http://www.thetwentyminutevc.com/category/podcast/",
+        "itunes": "https://itunes.apple.com/in/podcast/twenty-minute-vc-venture-capital/id958230465?mt=2"
+    },
+    {
+        "name": "Re/code Decode",
+        "description": "One of tech's most prominent journalists, Kara Swisher is known for her insightful reporting and straight-shooting style. Listen in as she hosts hard-hitting interviews about the week in tech with influential business leaders and outspoken personalities from media, politics and more.",
+        "category": "Business",
+        "source": "http://recode.net/podcasts/",
+        "itunes": "https://itunes.apple.com/us/podcast/re-code-decode/id1011668648?mt=2",
+        "rss": "http://feeds.feedburner.com/Recode-Decode"
     }]
 }

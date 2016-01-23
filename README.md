@@ -376,6 +376,11 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   A podcast focused on great products and the people who make them  
       [iTunes](https://itunes.apple.com/us/podcast/product-people/id585390927)
 
+- **[Re/code Decode](http://recode.net/podcasts/)**  
+  One of tech&#x27;s most prominent journalists, Kara Swisher is known for her insightful reporting and straight-shooting style. Listen in as she hosts hard-hitting interviews about the week in tech with influential business leaders and outspoken personalities from media, politics and more.  
+      [iTunes](https://itunes.apple.com/us/podcast/re-code-decode/id1011668648?mt&#x3D;2)
+       • [RSS](http://feeds.feedburner.com/Recode-Decode)
+
 - **[Resourceful Designer](http://resourcefuldesigner.com/)**  
   Wouldn&#x27;t it be nice if you could spend more time designing and less time worrying about your design business? Resourceful Designer offers tips, tricks and resources to help streamline your graphic design and web design business so you can get back to what you do best… Designing! Let me know what topics you would like me to cover by emailing feedback@resourcefuldesigner.com  
       [iTunes](https://itunes.apple.com/ca/podcast/resourceful-designer-resources/id1040570923)
@@ -420,6 +425,10 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 - **[The Startup Chat](http://thestartupchat.com/)**  
   Unfiltered insights and actionable advice straight from the trenches of startup and business life. The show hosts, Steli Efti and Hiten Shah, are both serial entrepreneurs who have founded multi-million dollar SaaS startups. Being busy CEOs of fast-growing companies, they know the value of your time and make sure you get the most out of each 22 minute episode.  
       [iTunes](https://itunes.apple.com/us/podcast/startup-chat-steli-hiten/id997616345?mt&#x3D;2)
+
+- **[The Twenty Minute VC](http://www.thetwentyminutevc.com/category/podcast/)**  
+  The Twenty Minute VC takes you inside the world of Venture Capital, Startup Funding and The Pitch. The Twenty Minute VC provides an instructional guide as to what it takes to get employed in the Venture Capital industry, with VCs giving specific advice on how to get noticed from the crowd and increasing your chances of employment.  
+      [iTunes](https://itunes.apple.com/in/podcast/twenty-minute-vc-venture-capital/id958230465?mt&#x3D;2)
 
 - **[This is Product Management](http://www.thisisproductmanagement.com/)**  
   This is Product Management interviews brilliant minds across numerous disciplines that fuel modern product teams. From design to statistics, we&#x27;ve got you covered.  
