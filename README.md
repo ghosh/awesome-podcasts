@@ -82,6 +82,11 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
       [iTunes](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id&#x3D;432550963)
        • [RSS](http://feeds.muleradio.net/mistakes)
 
+- **[Motion and Meaning](http://www.motionandmeaning.io/)**  
+  Motion and Meaning is a podcast about motion design for digital designers brought to you by Val Head and Cennydd Bowles.  
+      [iTunes](https://itunes.apple.com/us/podcast/motion-and-meaning-podcast/id1010491067?mt&#x3D;2)
+       • [RSS](http://feeds.soundcloud.com/users/soundcloud:users:152665386/sounds.rss)
+
 - **[On the Grid](http://5by5.tv/onthegrid)**  
   Thinking out loud about design weekly.  
       [iTunes](https://itunes.apple.com/us/podcast/on-the-grid/id547928774)
@@ -543,11 +548,6 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   The Start is a podcast focused on creative individuals and their growth in the industry, from the very beginning.  
       [iTunes](https://itunes.apple.com/us/podcast/the-start/id852802179)
        • [RSS](http://simplecast.fm/podcasts/122/rss)
-
-- **[This Developer&#x27;s Life](http://thisdeveloperslife.com/)**  
-  Bringing a human slant to the tech industry  
-      [iTunes](https://itunes.apple.com/us/podcast/this-developers-life/id389727545)
-       • [RSS](http://feeds.feedburner.com/thisdeveloperslife)
 
 - **[This Developer&#x27;s Life](http://thisdeveloperslife.com/)**  
   A podcast about developers and their lives.  

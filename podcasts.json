@@ -667,14 +667,6 @@
         "rss": "http://feeds.5by5.tv/changelog"
     },
     {
-        "name": "This Developer's Life",
-        "description": "Bringing a human slant to the tech industry",
-        "category": "Lifestyle",
-        "source": "http://thisdeveloperslife.com/",
-        "itunes": "https://itunes.apple.com/us/podcast/this-developers-life/id389727545",
-        "rss": "http://feeds.feedburner.com/thisdeveloperslife"
-    },
-    {
         "name": "Web of Tomorrow",
         "description": "A podcast about JavaScript, web development, web design, and technology.",
         "category": "Development",
@@ -857,5 +849,13 @@
         "source": "http://recode.net/podcasts/",
         "itunes": "https://itunes.apple.com/us/podcast/re-code-decode/id1011668648?mt=2",
         "rss": "http://feeds.feedburner.com/Recode-Decode"
+    },
+    {
+        "name": "Motion and Meaning",
+        "description": "Motion and Meaning is a podcast about motion design for digital designers brought to you by Val Head and Cennydd Bowles.",
+        "category": "Design",
+        "source": "http://www.motionandmeaning.io/",
+        "itunes": "https://itunes.apple.com/us/podcast/motion-and-meaning-podcast/id1010491067?mt=2",
+        "rss": "http://feeds.soundcloud.com/users/soundcloud:users:152665386/sounds.rss"
     }]
 }
