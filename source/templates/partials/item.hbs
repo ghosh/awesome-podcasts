@@ -1,14 +1,19 @@
-- **[{{name}}]({{source}})**  
-  {{description}}  
-  {{#if itunes}}
-      [iTunes]({{itunes}})
-  {{/if}}
-  {{#if rss}}
-       • [RSS]({{rss}})
-  {{/if}}
-  {{#if android}}
-       • [Android]({{android}})
-  {{/if}}
-  {{#if soundcloud}}
-       • [Soundcloud]({{soundcloud}})
-  {{/if}}
+<article class="">
+	<figure></figure>
+	<h1><a href="{{source}}">{{name}}</a></h1>
+	<p>{{description}}</p>
+	<ul>
+		{{#if itunes}}
+			<li><a href="{{itunes}}">iTunes</a></li>
+		{{/if}}
+		{{#if rss}}
+			<li><a href="{{rss}}">RSS</a></li>
+		{{/if}}
+		{{#if android}}
+			<li><a href="{{android}}">Android</a></li>
+		{{/if}}
+		{{#if soundcloud}}
+			<li><a href="{{soundcloud}}">Soundcloud</a></li>
+		{{/if}}
+	</ul>
+</article>

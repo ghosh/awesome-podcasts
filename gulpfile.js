@@ -12,15 +12,15 @@ var gulp       = require('gulp'),
     streamify = require('gulp-streamify');
 
 gulp.task('update', function () {
-  gulp.src('./source/templates/readme.hbs')
+  gulp.src('./source/templates/index.hbs')
     .pipe(hb({
       bustCache: true,
       data: './podcasts.json',
       helpers: './source/helpers/**/*.js',
       partials: './source/templates/partials/**/*.hbs'
     }))
-    .pipe(rename("README.md"))
-    .pipe(gulp.dest('./'))
+    .pipe(rename("index.html"))
+    .pipe(gulp.dest('./build'))
 });
 
 gulp.task('fetchData', function () {
