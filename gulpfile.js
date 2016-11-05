@@ -4,12 +4,15 @@ var gulp       = require('gulp'),
     hb         = require('gulp-hb'),
     rename     = require('gulp-rename'),
     
-    del = require('del'),
-    runSequence   = require('run-sequence'),
-    jeditor    = require("gulp-json-editor"),
-    gulpSheets = require('gulp-google-spreadsheets'),
-    beautify = require('gulp-jsbeautify'),
-    streamify = require('gulp-streamify');
+    del 			= require('del'),
+    runSequence   	= require('run-sequence'),
+    jeditor    		= require("gulp-json-editor"),
+    gulpSheets 		= require('gulp-google-spreadsheets'),
+    beautify 		= require('gulp-jsbeautify'),
+    streamify 		= require('gulp-streamify');
+	
+	sass 			= require('gulp-sass');
+	browserSync 	= require('browser-sync').create();
 
 gulp.task('update', function () {
   gulp.src('./source/templates/index.hbs')
@@ -63,3 +66,23 @@ gulp.task('cleanData', function() {
 gulp.task('fetch', function(callback) {
     runSequence('fetchData', 'mutateData', 'cleanData', callback);
 });
+
+gulp.task('serve', ['sass'], function() {
+
+    browserSync.init({
+        server: "./build"
+    });
+	
+    gulp.watch("./source/assets/styles/*.scss", ['sass']);
+    gulp.watch("./source/templates/**/*.hbs", ['update']).on('change', browserSync.reload);
+});
+
+gulp.task('sass', function () {
+  return gulp.src('./source/assets/styles/main.scss')
+    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(gulp.dest('./build'))
+	.pipe(browserSync.stream());
+});
+
+gulp.task('default', ['serve']);
+
