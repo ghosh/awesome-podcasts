@@ -17,13 +17,12 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		<div class="container">
-			<header>
+			<header class="site-header">
 				<h1>Awesome Podcasts</h1>
 				<h2>A curated list of podcasts for designers, developers, product managers, entrepreneurs, startups etc.</h2>
-				<p>Due to the nature of podcasts, it is difficult to cleanly classify them into different categories. Most podcast cover a wide range of topics and it blurs the boundries between topics. This is a very broad categorization and there is bound to be some overlap between categories. For example - You may find a podcast in the design category which also talks about lifestyle and business. Incase you disagree with the categorization and feel that a certain podcasts would be a better fit in a different category, please feel free to open an issue <a href="https://github.com/Ghosh/awesome-podcasts/issues">here</a>. Pull requests are most welcome.</p>
 			</header>
 			
-			<section>
+			<!-- <section>
 				<h2>Categories</h2>
 				<ul>
 					<li><a href="#">Design</a>User Experience, User Interface, Print Design, Graphic Design etc.</li>
@@ -32,10 +31,10 @@
 					<li><a href="#">Business</a>Entrepreneurship, Business, Startups, Product etc.</li>
 					<li><a href="#">Lifestyle</a>Productivity, Focus, Lifestyle etc.</li>
 				</ul>
-			</section>
+			</section> -->
 			
-			<section>
-				<h2>Design</h2>
+			<section class="podcast-section">
+				<h2><span>Design</span></h2>
 				<ul class="podcast-list">
 						{{#with podcasts}}
 						  {{#eachWithSort podcasts "name"}}
@@ -49,8 +48,8 @@
 				</ul>
 			</section>
 			
-			<section>
-				<h2>Design and Dev</h2>
+			<section class="podcast-section">
+				<h2><span>Design and Dev</span></h2>
 				<ul class="podcast-list">
 						{{#with podcasts}}
 						  {{#eachWithSort podcasts "name"}}
@@ -64,8 +63,8 @@
 				</ul>
 			</section>
 			
-			<section>
-				<h2>Business</h2>
+			<section class="podcast-section">
+				<h2><span>Business</span></h2>
 				<ul class="podcast-list">
 						{{#with podcasts}}
 						  {{#eachWithSort podcasts "name"}}
@@ -79,8 +78,8 @@
 				</ul>
 			</section>
 			
-			<section>
-				<h2>Lifestyle</h2>
+			<section class="podcast-section">
+				<h2><span>Lifestyle</span></h2>
 				<ul class="podcast-list">
 						{{#with podcasts}}
 						  {{#eachWithSort podcasts "name"}}
@@ -94,8 +93,11 @@
 				</ul>
 			</section>
 					
-			<footer>
-				Copyright is nothing.
+			<footer class="site-footer">
+				<p class="disclaimer">Due to the nature of podcasts, it is difficult to cleanly classify them into different categories. Most podcast cover a wide range of topics and it blurs the boundries between topics. This is a very broad categorization and there is bound to be some overlap between categories. For example - You may find a podcast in the design category which also talks about lifestyle and business. Incase you disagree with the categorization and feel that a certain podcasts would be a better fit in a different category, please feel free to open an issue <a href="https://github.com/Ghosh/awesome-podcasts/issues">here</a>. Pull requests are most welcome.</p>
+                <p class="colophon">
+                    A little thing by <a href="https://twitter.com/_ighosh">@_ighosh</a>
+                </p>
 			</footer>	
 			
 		</div>

@@ -99,9 +99,18 @@ textarea {
 }
 
 /* ==========================================================================
+  Variables
+  ========================================================================== */
+
+$link-color: #A61E4D;
+
+
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
-	
+
+ 
 body {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
 	letter-spacing: 0;
@@ -121,10 +130,44 @@ body {
 	max-width: 1140px;
 	margin: 0 auto;
 }
+.site-header {
+    text-align: center;
+    h1 {
+        font-size: 1.999rem;
+        @media screen and (min-width: 768px) {
+            font-size: 2.827rem;
+        }
+        font-weight: 200;
+        margin-top: 2.4rem;
+        margin-bottom: 0;
+        color: $link-color;
+    }
+    h2 {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 0.5rem;
+        margin-bottom: 2.4rem;
+    }
+}
+.podcast-section {
+    h2 {
+        font-size: 1.999rem;
+        font-weight: 200;
+        border-bottom: 1px solid #ddd;
+        margin: 2rem  0 1rem 0;
+        padding-bottom: 0.24rem;
+    }
+}
 .podcast-list {
 	list-style-type: none;
 	padding-left: 0;
-	column-count: 3;
+	column-count: 1;
+    @media screen and (min-width: 640px) {
+        column-count: 2;
+    }
+    @media screen and (min-width: 640px) {
+        column-count: 3;
+    }
 	column-gap: 1rem;
 	column-fill: auto;
 	> li {
@@ -139,6 +182,11 @@ body {
 	border: 1px solid #DEE2E6;
 	padding: 1rem;
     font-size: 0.9rem;
+    &:hover {
+        & .podcast__name a {
+            color: $link-color;
+        }
+    }
 	&__image {
 		margin: 0;
 		background-image: url('https://d1eedt7bo0oujw.cloudfront.net/art?s=171a4ed41021b498e981f41909e41966bdd1d111b553ee4b5fae9d1a9074ba7a&w=840&u=http%3A%2F%2Fwww.techradiopodcast.com%2Fwp-content%2Fuploads%2F2016%2F03%2FTech_Radio_PodcastLogo_2015.png');
@@ -155,6 +203,7 @@ body {
 		font-size: 1.4rem;
 		margin: 0 0 0.5rem 0;
         line-height: 1.2;
+        font-weight: 200;
 		a { 
 			text-decoration: none; 
 			color: inherit;
@@ -171,7 +220,7 @@ body {
 			display: inline-block;
 			a { 
 				text-decoration: none;
-				color: red;
+				color: $link-color;
 				&:hover {
 					text-decoration: underline;
 				}
@@ -182,6 +231,23 @@ body {
 			opacity: 0.1;
 		}
 	}
+}
+.site-footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    a {
+        color: $link-color;
+        text-decoration: none;
+    }
+    .colophon {
+        text-align: center;
+        margin-top: 2rem;
+        opacity: 0.8;
+        font-size: 0.8rem;
+    }
 }
 	
 
