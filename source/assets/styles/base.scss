@@ -136,11 +136,16 @@ body {
         font-size: 1.999rem;
         @media screen and (min-width: 768px) {
             font-size: 2.827rem;
+            margin-top: 3.6rem;
         }
         font-weight: 200;
         margin-top: 2.4rem;
         margin-bottom: 0;
         color: $link-color;
+        background-image: -webkit-linear-gradient(92deg, $link-color, lighten($link-color, 40%));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: hue 60s infinite linear;
     }
     h2 {
         font-size: 1rem;
@@ -148,6 +153,14 @@ body {
         margin-top: 0.5rem;
         margin-bottom: 2.4rem;
     }
+}
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(-360deg);
+  }
 }
 .podcast-section {
     h2 {
@@ -185,6 +198,7 @@ body {
     &:hover {
         & .podcast__name a {
             color: $link-color;
+            border-bottom: 1px solid;
         }
     }
 	&__image {
@@ -228,7 +242,7 @@ body {
 		}
 		li:not(:first-child):before { 
 			content: ' • '; 
-			opacity: 0.1;
+			opacity: 0.2;
 		}
 	}
 }
@@ -238,6 +252,7 @@ body {
     padding-bottom: 1rem;
     border-top: 1px solid #ddd;
     font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.5);
     a {
         color: $link-color;
         text-decoration: none;
@@ -245,7 +260,6 @@ body {
     .colophon {
         text-align: center;
         margin-top: 2rem;
-        opacity: 0.8;
         font-size: 0.8rem;
     }
 }
