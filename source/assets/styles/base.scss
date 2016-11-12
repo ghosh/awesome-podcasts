@@ -190,62 +190,8 @@ body {
         width: 100%;
 	}
 }
-.podcast {
-	background-color: #fff;
-	border: 1px solid #DEE2E6;
-	padding: 1rem;
-    font-size: 0.9rem;
-    &:hover {
-        & .podcast__name a {
-            color: $link-color;
-            border-bottom: 1px solid;
-        }
-    }
-	&__image {
-		margin: 0;
-		background-image: url('https://d1eedt7bo0oujw.cloudfront.net/art?s=171a4ed41021b498e981f41909e41966bdd1d111b553ee4b5fae9d1a9074ba7a&w=840&u=http%3A%2F%2Fwww.techradiopodcast.com%2Fwp-content%2Fuploads%2F2016%2F03%2FTech_Radio_PodcastLogo_2015.png');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		width: 100px;
-		height: 100px;
-		float: left;
-        margin-right: 1rem;
-        border-radius: 3px;
-	}
-	&__name {
-		font-size: 1.4rem;
-		margin: 0 0 0.5rem 0;
-        line-height: 1.2;
-        font-weight: 200;
-		a { 
-			text-decoration: none; 
-			color: inherit;
-		}
-	}
-	&__desc {
-		margin: 0 0 0.25rem;
-	}
-	&__link {
-		list-style-type: none;
-		padding-left: 0;
-		margin-top: 0.75rem;
-		li {
-			display: inline-block;
-			a { 
-				text-decoration: none;
-				color: $link-color;
-				&:hover {
-					text-decoration: underline;
-				}
-			}
-		}
-		li:not(:first-child):before { 
-			content: ' • '; 
-			opacity: 0.2;
-		}
-	}
-}
+
+
 .site-footer {
     margin-top: 2rem;
     padding-top: 1rem;
@@ -256,6 +202,10 @@ body {
     a {
         color: $link-color;
         text-decoration: none;
+    }
+    .disclaimer {
+    	text-align: center;
+    	font-size: 12px;
     }
     .colophon {
         text-align: center;
@@ -351,100 +301,4 @@ body {
 
 .clearfix:after {
     clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
 }

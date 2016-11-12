@@ -47,6 +47,22 @@
 						{{/with}}
 				</ul>
 			</section>
+
+      <section class="podcast-section">
+				<h2><span>Development</span></h2>
+				<ul class="podcast-list">
+						{{#with podcasts}}
+						  {{#eachWithSort podcasts "name"}}
+						  {{#is category "Development"}}
+						
+							<li>{{> item}}</li>
+
+						  {{/is}}
+						  {{/eachWithSort}}
+						{{/with}}
+				</ul>
+			</section>
+
 			
 			<section class="podcast-section">
 				<h2><span>Design and Dev</span></h2>

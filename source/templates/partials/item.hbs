@@ -1,13 +1,13 @@
 <article class="podcast">
-	<figure class="podcast__image" style="background-image:url('{{thumbnail}}');"></figure>
-	<section class="podcast__content">
-		<h1 class="podcast__name">
-			<a href="{{source}}">{{name}}</a>
-		</h1>
-		<p class="podcast__desc">
+  <img class="podcast__image" src="{{thumbnail}}" alt="{{name}}">
+  <section class="podcast__content">
+    <h1 class="podcast__name">
+      <a href="{{source}}">{{name}}</a>
+    </h1>
+    <p class="podcast__desc">
 			{{description}}
 		</p>
-		<ul class="podcast__link">
+    <ul class="podcast__link">
 			{{#if itunes}}
 				<li><a href="{{itunes}}">iTunes</a></li>
 			{{/if}}
@@ -21,5 +21,5 @@
 				<li><a href="{{soundcloud}}">Soundcloud</a></li>
 			{{/if}}
 		</ul>
-	</section>
+  </section>
 </article>
