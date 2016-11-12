@@ -13,6 +13,8 @@ var gulp       = require('gulp'),
 	
 	sass 			= require('gulp-sass');
 	browserSync 	= require('browser-sync').create();
+    autoprefixer    = require('gulp-autoprefixer');
+    cleanCSS        = require('gulp-clean-css');
 
 gulp.task('update', function () {
   gulp.src('./source/templates/index.hbs')
@@ -67,6 +69,17 @@ gulp.task('fetch', function(callback) {
     runSequence('fetchData', 'mutateData', 'cleanData', callback);
 });
 
+// SASS -> CSS, Autoprefix & Minification
+gulp.task('sass', function () {
+  return gulp.src('./source/assets/styles/main.scss')
+    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(autoprefixer())
+    .pipe(cleanCSS())
+    .pipe(gulp.dest('./build'))
+	.pipe(browserSync.stream());
+});
+
+// Once SASS is done, call serve
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
@@ -77,12 +90,6 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("./source/templates/**/*.hbs", ['update']).on('change', browserSync.reload);
 });
 
-gulp.task('sass', function () {
-  return gulp.src('./source/assets/styles/main.scss')
-    .pipe(sass.sync().on('error', sass.logError))
-    .pipe(gulp.dest('./build'))
-	.pipe(browserSync.stream());
-});
-
-gulp.task('default', ['serve']);
+// Call serve which will be called after sass
+gulp.task('dev', ['serve']);
 
