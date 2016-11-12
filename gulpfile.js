@@ -109,7 +109,7 @@ gulp.task('readme', function () {
 gulp.task('deploy', function() {
   return gulp.src('./build/**/*')
     .pipe(ghPages({
-        'remoteUrl' : 'git@github.com:ghosh/awesome-podcasts.git'
+        'remoteUrl' : 'https://github.com/ghosh/awesome-podcasts.git'
     }));
 });
 
