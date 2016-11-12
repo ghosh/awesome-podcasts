@@ -109,7 +109,7 @@ gulp.task('readme', function () {
 gulp.task('deploy', function() {
   return gulp.src('./build/**/*')
     .pipe(ghPages({
-        'remoteUrl' : 'https://github.com/ghosh/awesome-podcasts.git'
+        'remoteUrl' : 'git@github.com:ghosh/awesome-podcasts.git'
     }));
 });
 
@@ -117,5 +117,5 @@ gulp.task('deploy', function() {
 gulp.task('dev', ['serve']);
 
 // Call deploy after readme
-gulp.task('deploy', ['readme']);
+// gulp.task('deploy', ['readme']);
 
