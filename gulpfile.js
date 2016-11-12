@@ -107,7 +107,7 @@ gulp.task('readme', function () {
 });
 
 // Push to gh-pages
-gulp.task('deploy', ['readme'],function() {
+gulp.task('deploy', function() {
   return gulp.src('./build/**/*')
     .pipe(ghPages({
         'remoteUrl' : 'git@github.com:ghosh/awesome-podcasts.git'
@@ -116,7 +116,4 @@ gulp.task('deploy', ['readme'],function() {
 
 // Call serve which will be called after sass
 gulp.task('dev', ['serve']);
-
-// Call deploy after readme
-// gulp.task('deploy', ['readme']);
 
