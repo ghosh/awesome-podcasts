@@ -22,7 +22,7 @@ gulp.task('update', function () {
   gulp.src('./source/templates/index.hbs')
     .pipe(hb({
       bustCache: true,
-      data: './podcasts.json',
+      data: './source/data/podcasts.json',
       helpers: './source/helpers/**/*.js',
       partials: './source/templates/partials/**/*.hbs'
     }))
@@ -45,6 +45,7 @@ gulp.task('mutateData', function() {
       for (var i=0,  len=rows.length; i < len; i++) {
         podcasts[i] = {};
         if (rows[i]['name']) { podcasts[i]['name'] = rows[i]['name']; }
+        if (rows[i]['thumbnail']) { podcasts[i]['thumbnail'] = rows[i]['thumbnail']; }
         if (rows[i]['description']) { podcasts[i]['description'] = rows[i]['description']; }
         if (rows[i]['category']) { podcasts[i]['category'] = rows[i]['category']; }
         if (rows[i]['source']) { podcasts[i]['source'] = rows[i]['source']; }
@@ -60,14 +61,14 @@ gulp.task('mutateData', function() {
   })))
   .pipe(beautify({brace_style: 'expand'}))
   .pipe(rename("podcasts.json"))
-  .pipe(gulp.dest('./'));
+  .pipe(gulp.dest('./source/data/'));
 })
 
 gulp.task('cleanData', function() {
     return del(['./data/']);
 });
 
-gulp.task('fetch', function(callback) {
+gulp.task('sync', function(callback) {
     runSequence('fetchData', 'mutateData', 'cleanData', callback);
 });
 
