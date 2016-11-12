@@ -15,6 +15,8 @@ var gulp       = require('gulp'),
 	browserSync 	= require('browser-sync').create();
     autoprefixer    = require('gulp-autoprefixer');
     cleanCSS        = require('gulp-clean-css');
+    
+    ghPages         = require('gulp-gh-pages');
 
 gulp.task('update', function () {
   gulp.src('./source/templates/index.hbs')
@@ -90,9 +92,7 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("./source/templates/**/*.hbs", ['update']).on('change', browserSync.reload);
 });
 
-// Call serve which will be called after sass
-gulp.task('dev', ['serve']);
-
+//Generate Readme.md file
 gulp.task('readme', function () {
   gulp.src('./source/templates/readme.hbs')
     .pipe(hb({
@@ -104,4 +104,18 @@ gulp.task('readme', function () {
     .pipe(rename("README.md"))
     .pipe(gulp.dest('./'))
 });
+
+// Push to gh-pages
+gulp.task('deploy', function() {
+  return gulp.src('./build/**/*')
+    .pipe(ghPages({
+        'remoteUrl' : 'git@github.com:ghosh/awesome-podcasts.git'
+    }));
+});
+
+// Call serve which will be called after sass
+gulp.task('dev', ['serve']);
+
+// Call deploy after readme
+gulp.task('deploy', ['readme']);
 
