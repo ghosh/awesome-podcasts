@@ -4,23 +4,28 @@ var gulp       = require('gulp'),
     hb         = require('gulp-hb'),
     rename     = require('gulp-rename'),
     
-    del = require('del'),
-    runSequence   = require('run-sequence'),
-    jeditor    = require("gulp-json-editor"),
-    gulpSheets = require('gulp-google-spreadsheets'),
-    beautify = require('gulp-jsbeautify'),
-    streamify = require('gulp-streamify');
+    del 			= require('del'),
+    runSequence   	= require('run-sequence'),
+    jeditor    		= require("gulp-json-editor"),
+    gulpSheets 		= require('gulp-google-spreadsheets'),
+    beautify 		= require('gulp-jsbeautify'),
+    streamify 		= require('gulp-streamify');
+	
+	sass 			= require('gulp-sass');
+	browserSync 	= require('browser-sync').create();
+    autoprefixer    = require('gulp-autoprefixer');
+    cleanCSS        = require('gulp-clean-css');
 
 gulp.task('update', function () {
-  gulp.src('./source/templates/readme.hbs')
+  gulp.src('./source/templates/index.hbs')
     .pipe(hb({
       bustCache: true,
       data: './podcasts.json',
       helpers: './source/helpers/**/*.js',
       partials: './source/templates/partials/**/*.hbs'
     }))
-    .pipe(rename("README.md"))
-    .pipe(gulp.dest('./'))
+    .pipe(rename("index.html"))
+    .pipe(gulp.dest('./build'))
 });
 
 gulp.task('fetchData', function () {
@@ -63,3 +68,28 @@ gulp.task('cleanData', function() {
 gulp.task('fetch', function(callback) {
     runSequence('fetchData', 'mutateData', 'cleanData', callback);
 });
+
+// SASS -> CSS, Autoprefix & Minification
+gulp.task('sass', function () {
+  return gulp.src('./source/assets/styles/main.scss')
+    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(autoprefixer())
+    .pipe(cleanCSS())
+    .pipe(gulp.dest('./build'))
+	.pipe(browserSync.stream());
+});
+
+// Once SASS is done, call serve
+gulp.task('serve', ['sass'], function() {
+
+    browserSync.init({
+        server: "./build"
+    });
+	
+    gulp.watch("./source/assets/styles/*.scss", ['sass']);
+    gulp.watch("./source/templates/**/*.hbs", ['update']).on('change', browserSync.reload);
+});
+
+// Call serve which will be called after sass
+gulp.task('dev', ['serve']);
+
