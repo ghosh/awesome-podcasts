@@ -106,7 +106,7 @@ gulp.task('readme', function () {
 });
 
 // Push to gh-pages
-gulp.task('deploy', function() {
+gulp.task('deploy', ['readme'],function() {
   return gulp.src('./build/**/*')
     .pipe(ghPages({
         'remoteUrl' : 'git@github.com:ghosh/awesome-podcasts.git'
