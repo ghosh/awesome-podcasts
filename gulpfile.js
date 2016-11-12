@@ -1,22 +1,20 @@
 
-var gulp       = require('gulp'),
-    handlebars = require('handlebars'),
-    hb         = require('gulp-hb'),
-    rename     = require('gulp-rename'),
-    
-    del 			= require('del'),
-    runSequence   	= require('run-sequence'),
-    jeditor    		= require("gulp-json-editor"),
-    gulpSheets 		= require('gulp-google-spreadsheets'),
-    beautify 		= require('gulp-jsbeautify'),
-    streamify 		= require('gulp-streamify');
-	
-	sass 			= require('gulp-sass');
-	browserSync 	= require('browser-sync').create();
-    autoprefixer    = require('gulp-autoprefixer');
-    cleanCSS        = require('gulp-clean-css');
-    
-    ghPages         = require('gulp-gh-pages');
+var gulp         = require('gulp'),
+    handlebars   = require('handlebars'),
+    hb           = require('gulp-hb'),
+    rename       = require('gulp-rename'),
+    del          = require('del'),
+    runSequence  = require('run-sequence'),
+    jeditor      = require("gulp-json-editor"),
+    gulpSheets   = require('gulp-google-spreadsheets'),
+    beautify     = require('gulp-jsbeautify'),
+    streamify    = require('gulp-streamify');
+    sass         = require('gulp-sass');
+    autoprefixer = require('gulp-autoprefixer');
+    cleanCSS     = require('gulp-clean-css');
+    ghPages      = require('gulp-gh-pages');
+    browserSync  = require('browser-sync').create();
+
 
 gulp.task('update', function () {
   gulp.src('./source/templates/index.hbs')
@@ -30,10 +28,12 @@ gulp.task('update', function () {
     .pipe(gulp.dest('./build'))
 });
 
+
 gulp.task('fetchData', function () {
     return gulpSheets('1RgK3Vyb98EunVFQRb3nS-yy7iZWiBrL-4cs3I3hBWbk')
     .pipe(gulp.dest('./data'))
 });
+
 
 gulp.task('mutateData', function() {
   gulp.src("./data/podcasts.json")
@@ -64,13 +64,16 @@ gulp.task('mutateData', function() {
   .pipe(gulp.dest('./source/data/'));
 })
 
+
 gulp.task('cleanData', function() {
     return del(['./data/']);
 });
 
+
 gulp.task('sync', function(callback) {
     runSequence('fetchData', 'mutateData', 'cleanData', callback);
 });
+
 
 // SASS -> CSS, Autoprefix & Minification
 gulp.task('sass', function () {
@@ -79,32 +82,19 @@ gulp.task('sass', function () {
     .pipe(autoprefixer())
     .pipe(cleanCSS())
     .pipe(gulp.dest('./build'))
-	.pipe(browserSync.stream());
+.pipe(browserSync.stream());
 });
 
-// Once SASS is done, call serve
-gulp.task('serve', ['sass'], function() {
 
+// Once SASS is done, call dev
+gulp.task('dev', ['sass'], function() {
     browserSync.init({
         server: "./build"
     });
-	
     gulp.watch("./source/assets/styles/*.scss", ['sass']);
     gulp.watch("./source/templates/**/*.hbs", ['update']).on('change', browserSync.reload);
 });
 
-//Generate Readme.md file
-gulp.task('readme', function () {
-  gulp.src('./source/templates/readme.hbs')
-    .pipe(hb({
-      bustCache: true,
-      data: './podcasts.json',
-      helpers: './source/helpers/**/*.js',
-      partials: './source/templates/partials/**/*.hbs'
-    }))
-    .pipe(rename("README.md"))
-    .pipe(gulp.dest('./'))
-});
 
 // Push to gh-pages
 gulp.task('deploy', function() {
@@ -113,7 +103,3 @@ gulp.task('deploy', function() {
         'remoteUrl' : 'git@github.com:ghosh/awesome-podcasts.git'
     }));
 });
-
-// Call serve which will be called after sass
-gulp.task('dev', ['serve']);
-
