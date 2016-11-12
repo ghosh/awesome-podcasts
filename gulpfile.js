@@ -93,3 +93,15 @@ gulp.task('serve', ['sass'], function() {
 // Call serve which will be called after sass
 gulp.task('dev', ['serve']);
 
+gulp.task('readme', function () {
+  gulp.src('./source/templates/readme.hbs')
+    .pipe(hb({
+      bustCache: true,
+      data: './podcasts.json',
+      helpers: './source/helpers/**/*.js',
+      partials: './source/templates/partials/**/*.hbs'
+    }))
+    .pipe(rename("README.md"))
+    .pipe(gulp.dest('./'))
+});
+
