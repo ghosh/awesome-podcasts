@@ -9,8 +9,12 @@
   &__image {
     margin-right: 1em;
     margin: 0;
-    width: 80px;
-    height: 80px;
+    width: 48px;
+    height: 48px;
+    @include bp-large {
+        width: 64px;
+        height: 64px;
+    }
     margin-right: 1rem;
     border-radius: 3px;
   }

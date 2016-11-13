@@ -186,6 +186,7 @@ body {
   }
 }
 .podcast-section {
+    &:not(:first-child) { padding-top: 2rem; }
     h2 {
         font-size: 1.414rem;
         @include bp-medium {
@@ -195,9 +196,6 @@ body {
         border-bottom: 1px solid #ddd;
         margin: 2rem  0 1rem 0;
         padding-bottom: 0.24rem;
-        position: sticky;
-        top: 0;
-        background-color: #F1F3F5;
         color: rgba(0, 0, 0, 0.5);
     }
 }
