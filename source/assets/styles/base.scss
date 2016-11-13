@@ -99,10 +99,35 @@ textarea {
 }
 
 /* ==========================================================================
-  Variables
+  Variables and mixins
   ========================================================================== */
 
-$link-color: #A61E4D;
+$link-color: #5C7CFA;
+
+@mixin bp-large {
+  @media only screen and (min-width: 60em) {
+    @content;
+  }
+}
+
+@mixin bp-medium {
+  @media only screen and (min-width: 40em) {
+    @content;
+  }
+}
+
+@mixin bp-small {
+  @media only screen and (min-width: 20em) {
+    @content;
+  }
+}
+
+@mixin gradient-link() {
+    color: $link-color;
+    background-image: -webkit-linear-gradient(92deg, darken($link-color, 40%), $link-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 
@@ -141,10 +166,13 @@ body {
         font-weight: 200;
         margin-top: 2.4rem;
         margin-bottom: 0;
-        color: $link-color;
+        @include gradient-link;
     }
     h2 {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        @include bp-medium {
+            font-size: 1rem;
+        }
         font-weight: 400;
         margin-top: 0.5rem;
         margin-bottom: 2.4rem;
@@ -166,25 +194,32 @@ body {
 }
 .podcast-section {
     h2 {
-        font-size: 1.999rem;
+        font-size: 1.414rem;
+        @include bp-medium {
+            font-size: 1.999rem;
+        }
         font-weight: 200;
         border-bottom: 1px solid #ddd;
         margin: 2rem  0 1rem 0;
         padding-bottom: 0.24rem;
+        position: sticky;
+        top: 0;
+        background-color: #F1F3F5;
+        color: rgba(0, 0, 0, 0.5);
     }
 }
 .podcast-list {
 	list-style-type: none;
 	padding-left: 0;
 	column-count: 1;
+    column-gap: 1rem;
+    column-fill: auto;
     @media screen and (min-width: 640px) {
         column-count: 2;
     }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 1024px) {
         column-count: 3;
     }
-	column-gap: 1rem;
-	column-fill: auto;
 	> li {
 		break-inside: avoid;
 		margin-bottom: 1rem;
@@ -202,6 +237,9 @@ body {
     a {
         color: $link-color;
         text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
     }
     .disclaimer {
     	text-align: center;
