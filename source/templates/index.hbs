@@ -16,6 +16,16 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <nav class="inpage-nav">
+            <ul class="container">
+                <li><a href="#design" class="inpage-nav__link">Design</a></li>
+                <li><a href="#dev" class="inpage-nav__link">Development</a></li>
+                <li><a href="#design-dev" class="inpage-nav__link">Design & Dev</a></li>
+                <li><a href="#business" class="inpage-nav__link">Business</a></li>
+                <li><a href="#lifestyle" class="inpage-nav__link">Lifestyle</a></li>
+                
+            </ul>
+        </nav>
 		<div class="container">
 			<header class="site-header">
 				<h1>Awesome Podcasts</h1>
@@ -32,83 +42,86 @@
 					<li><a href="#">Lifestyle</a>Productivity, Focus, Lifestyle etc.</li>
 				</ul>
 			</section> -->
+            
+            <section>
+
+    			<section class="podcast-section" id="design">
+    				<h2><span>Design</span></h2>
+    				<ul class="podcast-list">
+    						{{#with podcasts}}
+    						  {{#eachWithSort podcasts "name"}}
+    						    {{#is category "Design"}}
+    								
+    								<li>{{> podcast}}</li>
+
+    						    {{/is}}
+    						  {{/eachWithSort}}
+    						{{/with}}
+    				</ul>
+    			</section>
+
+                <section class="podcast-section" id="dev">
+    				<h2><span>Development</span></h2>
+    				<ul class="podcast-list">
+    						{{#with podcasts}}
+    						  {{#eachWithSort podcasts "name"}}
+    						  {{#is category "Development"}}
+    						
+    							<li>{{> podcast}}</li>
+
+    						  {{/is}}
+    						  {{/eachWithSort}}
+    						{{/with}}
+    				</ul>
+    			</section>
+    			
+    			<section class="podcast-section" id="design-dev">
+    				<h2><span>Design and Dev</span></h2>
+    				<ul class="podcast-list">
+    						{{#with podcasts}}
+    						  {{#eachWithSort podcasts "name"}}
+    						  {{#is category "Design and Dev"}}
+    						
+    							<li>{{> podcast}}</li>
+
+    						  {{/is}}
+    						  {{/eachWithSort}}
+    						{{/with}}
+    				</ul>
+    			</section>
+    			
+    			<section class="podcast-section" id="business">
+    				<h2><span>Business</span></h2>
+    				<ul class="podcast-list">
+    						{{#with podcasts}}
+    						  {{#eachWithSort podcasts "name"}}
+    						  {{#is category "Business"}}
+    						
+    							<li>{{> podcast}}</li>
+
+    						  {{/is}}
+    						  {{/eachWithSort}}
+    						{{/with}}
+    				</ul>
+    			</section>
+    			
+    			<section class="podcast-section" id="lifestyle">
+    				<h2><span>Lifestyle</span></h2>
+    				<ul class="podcast-list">
+    						{{#with podcasts}}
+    						  {{#eachWithSort podcasts "name"}}
+    						  {{#is category "Lifestyle"}}
+    						
+    							<li>{{> podcast}}</li>
+
+    						  {{/is}}
+    						  {{/eachWithSort}}
+    						{{/with}}
+    				</ul>
+    			</section>
 			
-			<section class="podcast-section">
-				<h2><span>Design</span></h2>
-				<ul class="podcast-list">
-						{{#with podcasts}}
-						  {{#eachWithSort podcasts "name"}}
-						    {{#is category "Design"}}
-								
-								<li>{{> podcast}}</li>
-
-						    {{/is}}
-						  {{/eachWithSort}}
-						{{/with}}
-				</ul>
-			</section>
-
-      <section class="podcast-section">
-				<h2><span>Development</span></h2>
-				<ul class="podcast-list">
-						{{#with podcasts}}
-						  {{#eachWithSort podcasts "name"}}
-						  {{#is category "Development"}}
-						
-							<li>{{> podcast}}</li>
-
-						  {{/is}}
-						  {{/eachWithSort}}
-						{{/with}}
-				</ul>
-			</section>
-
-			
-			<section class="podcast-section">
-				<h2><span>Design and Dev</span></h2>
-				<ul class="podcast-list">
-						{{#with podcasts}}
-						  {{#eachWithSort podcasts "name"}}
-						  {{#is category "Design and Dev"}}
-						
-							<li>{{> podcast}}</li>
-
-						  {{/is}}
-						  {{/eachWithSort}}
-						{{/with}}
-				</ul>
-			</section>
-			
-			<section class="podcast-section">
-				<h2><span>Business</span></h2>
-				<ul class="podcast-list">
-						{{#with podcasts}}
-						  {{#eachWithSort podcasts "name"}}
-						  {{#is category "Business"}}
-						
-							<li>{{> podcast}}</li>
-
-						  {{/is}}
-						  {{/eachWithSort}}
-						{{/with}}
-				</ul>
-			</section>
-			
-			<section class="podcast-section">
-				<h2><span>Lifestyle</span></h2>
-				<ul class="podcast-list">
-						{{#with podcasts}}
-						  {{#eachWithSort podcasts "name"}}
-						  {{#is category "Lifestyle"}}
-						
-							<li>{{> podcast}}</li>
-
-						  {{/is}}
-						  {{/eachWithSort}}
-						{{/with}}
-				</ul>
-			</section>
-					
+            </section>
+            
 			<footer class="site-footer">
 
 				<p class="disclaimer">
@@ -122,6 +135,46 @@
 			</footer>	
 			
 		</div>
+        
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.inpage-nav__link').bind('click', function(e) {
+                    e.preventDefault(); // prevent hard jump, the default behavior
+
+                    var target = $(this).attr("href"); // Set the target as variable
+
+                    // perform animated scrolling by getting top-position of target-element and set it as scroll target
+                    $('html, body').stop().animate({
+                            scrollTop: $(target).offset().top
+                    }, 600, function() {
+                            location.hash = target; //attach the hash (#jumptarget) to the pageurl
+                    });
+
+                    return false;
+                });
+            });
+
+            $(window).scroll(function() {
+                var scrollDistance = $(window).scrollTop();
+
+                // Show/hide menu on scroll
+                if (scrollDistance >= 850) {
+                    $('.inpage-nav').addClass("is-visible");
+                } else {
+                    $('.inpage-nav').removeClass("is-visible");
+                }
+
+                // Assign active class to nav links while scolling
+                $('.podcast-section').each(function(i) {
+                    if ($(this).position().top <= scrollDistance + 150) {
+                            $('.inpage-nav__link.active').removeClass('active');
+                            $('.inpage-nav__link').eq(i).addClass('active');
+                    }
+                });
+            }).scroll();
+        </script>
 				
     </body>
 		
