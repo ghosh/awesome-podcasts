@@ -13,6 +13,7 @@ var gulp         = require('gulp'),
     autoprefixer = require('gulp-autoprefixer');
     cleanCSS     = require('gulp-clean-css');
     ghPages      = require('gulp-gh-pages');
+    uglify       = require('gulp-uglify');
     browserSync  = require('browser-sync').create();
 
 
@@ -86,12 +87,20 @@ gulp.task('sass', function () {
 .pipe(browserSync.stream());
 });
 
+gulp.task('compress', ['sass'], function () {
+  return gulp.src('./source/assets/js/main.js')
+    .pipe(uglify())
+    .pipe(rename("main.js"))
+    .pipe(gulp.dest('./build'));
+});
 
-// Once SASS is done, call dev
-gulp.task('dev', ['sass'], function() {
+
+// Once SASS and compress is done, call dev
+gulp.task('dev', ['compress'], function() {
     browserSync.init({
         server: "./build"
     });
+    gulp.watch("./source/assets/js/**/*.js", ['compress'])
     gulp.watch("./source/assets/styles/*.scss", ['sass']);
     gulp.watch("./source/templates/**/*.hbs", ['update']).on('change', browserSync.reload);
 });
