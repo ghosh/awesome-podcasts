@@ -11,18 +11,6 @@ var gulp       = require('gulp'),
     beautify = require('gulp-jsbeautify'),
     streamify = require('gulp-streamify');
 
-gulp.task('update', function () {
-  gulp.src('./source/templates/readme.hbs')
-    .pipe(hb({
-      bustCache: true,
-      data: './podcasts.json',
-      helpers: './source/helpers/**/*.js',
-      partials: './source/templates/partials/**/*.hbs'
-    }))
-    .pipe(rename("README.md"))
-    .pipe(gulp.dest('./'))
-});
-
 gulp.task('fetchData', function () {
     return gulpSheets('1RgK3Vyb98EunVFQRb3nS-yy7iZWiBrL-4cs3I3hBWbk')
     .pipe(gulp.dest('./data'))
@@ -60,6 +48,18 @@ gulp.task('cleanData', function() {
     return del(['./data/']);
 });
 
-gulp.task('fetch', function(callback) {
+gulp.task('sync', function(callback) {
     runSequence('fetchData', 'mutateData', 'cleanData', callback);
+});
+
+gulp.task('update', function () {
+  gulp.src('./source/templates/readme.hbs')
+    .pipe(hb({
+      bustCache: true,
+      data: './podcasts.json',
+      helpers: './source/helpers/**/*.js',
+      partials: './source/templates/partials/**/*.hbs'
+    }))
+    .pipe(rename("README.md"))
+    .pipe(gulp.dest('./'))
 });

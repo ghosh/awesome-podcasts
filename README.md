@@ -87,11 +87,6 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
       [iTunes](https://itunes.apple.com/us/podcast/motion-and-meaning-podcast/id1010491067?mt&#x3D;2)
        • [RSS](http://feeds.soundcloud.com/users/soundcloud:users:152665386/sounds.rss)
 
-- **[On the Grid](http://5by5.tv/onthegrid)**  
-  Thinking out loud about design weekly.  
-      [iTunes](https://itunes.apple.com/us/podcast/on-the-grid/id547928774)
-       • [RSS](http://feeds.5by5.tv/onthegrid)
-
 - **[One Design Podcast](http://onedesign.guide/)**  
   A fortnightly discussion about digital design with Kris Jeary, Bridget Tann and Andrew Fairlie  
       [iTunes](https://itunes.apple.com/gb/podcast/one-design-podcast/id967765318)
@@ -204,6 +199,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 
 - **[React Native Radio](https://devchat.tv/react-native-radio)**  
   A weekly show dedicated to building apps with React Native  
+      [iTunes](https://itunes.apple.com/us/podcast/react-native-radio/id1058647602?mt&#x3D;2)
        • [RSS](https://devchat.tv/react-native-radio)
 
 - **[React Podcast](http://reactpodcast.com/)**  
@@ -250,11 +246,6 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   A podcast about JavaScript, web development, web design, and technology.  
       [iTunes](https://itunes.apple.com/us/podcast/web-of-tomorrow/id1033636563)
        • [RSS](http://www.weboftomorrowpodcast.com/feed.rss)
-
-- **[WebDevRadio](http://webdevradio.com/)**  
-  Topics, tools and tips for web application developers, including testing strategies, upcoming conferences, interviews with developers, seo techniques, optimization tip and more.  
-      [iTunes](https://itunes.apple.com/us/podcast/webdevradio.com-web-development/id74402299)
-       • [RSS](http://webdevradio.com/feed/)
 
 
 
@@ -440,11 +431,6 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
       [iTunes](https://itunes.apple.com/us/podcast/this-is-product-management/id975284403)
        • [RSS](http://alphaux.libsyn.com/rss)
 
-- **[Web Design Agency Podcast](http://www.webagencypodcast.com/)**  
-  Web design professionals, learn how to make more money from your business, work less hours and have a little bit of fun while doing so. We discuss: how to build an effective business, how to construct a website that gets you more web design clients, how to effectively solve your web design clients&#x27; problems, getting more graphic design clients, how to increase your earnings through additional revenue streams, how to use virtual staff effectively, and more.  
-      [iTunes](https://itunes.apple.com/au/podcast/web-agency-podcast/id751014899)
-       • [RSS](http://www.webagencypodcast.com/feed/)
-
 - **[What&#x27;s Tech?](http://www.theverge.com/whatstech)**  
   We live in the future, where drones skim the sky, corporations enter the space race, and smart watches track our every movement. But how? And why? What&#x27;s Tech invites experts to explain the technology bit by bit, in clear, brief, enjoyable audio nuggets. These days, technology is everywhere. Let&#x27;s make sense of what&#x27;s around us.  
       [iTunes](https://itunes.apple.com/us/podcast/whats-tech/id966621017?mt&#x3D;2)
@@ -454,6 +440,12 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   Join Ashley Baxter and Paddy Donnelly on a journey to figure out how to create a business doing what you love. Is it possible to make a living from your hobby? On Working out, Ashley &amp; Paddy discuss their own personal journeys in creating their passion-based business. This is about the expedition, the here and now, the daily challenges and achievements towards getting paid for your passion.  
       [iTunes](https://itunes.apple.com/gb/podcast/working-out/id875239968)
        • [RSS](http://simplecast.fm/podcasts/128/rss)
+
+- **[Workmode](http://workmode.show/)**  
+  A series of conversations with leading design, tech and cultural creators on how they work. Hosted by Alex Nemeroff, Co-Founder of Dynamo, a digital agency in Montreal, Canada.  
+      [iTunes](https://itunes.apple.com/us/podcast/workmode/id1149475096)
+       • [RSS](http://feeds.soundcloud.com/users/soundcloud:users:121517753/sounds.rss)
+       • [Android](https://goo.gl/app/playmusic?ibi&#x3D;com.google.PlayMusic&amp;isi&#x3D;691797987&amp;ius&#x3D;googleplaymusic&amp;link&#x3D;https://play.google.com/music/m/Ijzdk64m3vfnuohvqwwl5rn56au?t&#x3D;Workmode)
 
 
 
@@ -481,11 +473,6 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   A weekly chat about the lives and workflows of modern web developers, hosted by Sean Washington &amp; Paul Straw.  
       [iTunes](https://itunes.apple.com/us/podcast/does-not-compute/id1048731980)
        • [RSS](http://simplecast.fm/podcasts/1386/rss)
-
-- **[Five Minute Tech News](http://5by5.tv/news)**  
-  Five Minute Tech News is a daily update on the latest in tech, gaming, web, and geek culture in about five minutes.  
-      [iTunes](https://itunes.apple.com/us/podcast/the-news/id602266713)
-       • [RSS](http://feeds.5by5.tv/news)
 
 - **[Greyscalegorilla Podcast](http://greyscalegorilla.com/)**  
   Nick Campbell&#x27;s Show about How to Be Creative and Get Paid  
@@ -558,9 +545,4 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   Pop culture through the lens of design and vice versa.  
       [iTunes](https://itunes.apple.com/us/podcast/vicarious/id1055180013)
        • [RSS](http://simplecast.fm/podcasts/1457/rss)
-
-- **[Workflowing](http://5by5.tv/mikesonmics)**  
-  Workflowing is a weekly discussion where Mike Vardy, Michael Schechter, and the occasional guest consider ways to live a better life, do better work, and avoid the pitfalls of productivity porn in the process.  
-      [iTunes](https://itunes.apple.com/ca/podcast/mikes-on-mics/id498796697)
-       • [RSS](http://feeds.5by5.tv/mikesonmics)
 

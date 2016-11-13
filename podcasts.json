@@ -141,22 +141,6 @@
         "itunes": "https://itunes.apple.com/us/podcast/iterate/id447063932"
     },
     {
-        "name": "Five Minute Tech News",
-        "description": "Five Minute Tech News is a daily update on the latest in tech, gaming, web, and geek culture in about five minutes.",
-        "category": "Lifestyle",
-        "source": "http://5by5.tv/news",
-        "itunes": "https://itunes.apple.com/us/podcast/the-news/id602266713",
-        "rss": "http://feeds.5by5.tv/news"
-    },
-    {
-        "name": "Workflowing",
-        "description": "Workflowing is a weekly discussion where Mike Vardy, Michael Schechter, and the occasional guest consider ways to live a better life, do better work, and avoid the pitfalls of productivity porn in the process.",
-        "category": "Lifestyle",
-        "source": "http://5by5.tv/mikesonmics",
-        "itunes": "https://itunes.apple.com/ca/podcast/mikes-on-mics/id498796697",
-        "rss": "http://feeds.5by5.tv/mikesonmics"
-    },
-    {
         "name": "ShopTalk",
         "description": "ShopTalk is a podcast about front end web design, development and UX. Each week Chris Coyier and Dave Rupert are joined by a special guest to talk shop and answer listener submitted questions.",
         "category": "Design and Dev",
@@ -299,28 +283,12 @@
         "rss": "http://feeds.feedburner.com/pagebreakpodcast"
     },
     {
-        "name": "Web Design Agency Podcast",
-        "description": "Web design professionals, learn how to make more money from your business, work less hours and have a little bit of fun while doing so. We discuss: how to build an effective business, how to construct a website that gets you more web design clients, how to effectively solve your web design clients' problems, getting more graphic design clients, how to increase your earnings through additional revenue streams, how to use virtual staff effectively, and more.",
-        "category": "Business",
-        "source": "http://www.webagencypodcast.com/",
-        "itunes": "https://itunes.apple.com/au/podcast/web-agency-podcast/id751014899",
-        "rss": "http://www.webagencypodcast.com/feed/"
-    },
-    {
         "name": "Non Breaking Space Show",
         "description": "Seeking out the best, brightest, and smartest creative people on digital art, design, and development. From workflows to life hacks, we examine why they do what they do and how they did it. Hosted by Chris Enns, Christopher Schmitt and Sam Kapila.",
         "category": "Lifestyle",
         "source": "http://goodstuff.fm/nbsp",
         "itunes": "https://itunes.apple.com/us/podcast/the-non-breaking-space-show/id507162981",
         "rss": "http://feeds.goodstuff.fm/nbsp"
-    },
-    {
-        "name": "On the Grid",
-        "description": "Thinking out loud about design weekly.",
-        "category": "Design",
-        "source": "http://5by5.tv/onthegrid",
-        "itunes": "https://itunes.apple.com/us/podcast/on-the-grid/id547928774",
-        "rss": "http://feeds.5by5.tv/onthegrid"
     },
     {
         "name": "Debug",
@@ -619,14 +587,6 @@
         "rss": "http://simplecast.fm/podcasts/351/rss"
     },
     {
-        "name": "WebDevRadio",
-        "description": "Topics, tools and tips for web application developers, including testing strategies, upcoming conferences, interviews with developers, seo techniques, optimization tip and more.",
-        "category": "Development",
-        "source": "http://webdevradio.com/",
-        "itunes": "https://itunes.apple.com/us/podcast/webdevradio.com-web-development/id74402299",
-        "rss": "http://webdevradio.com/feed/"
-    },
-    {
         "name": "The Laracasts Snippet",
         "description": "The Laracasts snippet, each episode, offers a single thought on some aspect of web development. Nothing more, nothing less. Hosted by Jeffrey Way.",
         "category": "Development",
@@ -719,6 +679,7 @@
         "description": "A weekly show dedicated to building apps with React Native",
         "category": "Development",
         "source": "https://devchat.tv/react-native-radio",
+        "itunes": "https://itunes.apple.com/us/podcast/react-native-radio/id1058647602?mt=2",
         "rss": "https://devchat.tv/react-native-radio"
     },
     {
@@ -857,5 +818,14 @@
         "source": "http://www.motionandmeaning.io/",
         "itunes": "https://itunes.apple.com/us/podcast/motion-and-meaning-podcast/id1010491067?mt=2",
         "rss": "http://feeds.soundcloud.com/users/soundcloud:users:152665386/sounds.rss"
+    },
+    {
+        "name": "Workmode",
+        "description": "A series of conversations with leading design, tech and cultural creators on how they work. Hosted by Alex Nemeroff, Co-Founder of Dynamo, a digital agency in Montreal, Canada.",
+        "category": "Business",
+        "source": "http://workmode.show/",
+        "itunes": "https://itunes.apple.com/us/podcast/workmode/id1149475096",
+        "android": "https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ijzdk64m3vfnuohvqwwl5rn56au?t=Workmode",
+        "rss": "http://feeds.soundcloud.com/users/soundcloud:users:121517753/sounds.rss"
     }]
 }
