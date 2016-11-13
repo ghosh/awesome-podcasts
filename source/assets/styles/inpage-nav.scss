@@ -4,7 +4,7 @@
     background-color: white;
     width: 100%;
     top: 0;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.35);
     transition: all 0.25s ease-in-out;
     transform: translateY(-50px);
     overflow: hidden;
@@ -28,7 +28,11 @@
         padding-right: 1rem;
         white-space: nowrap;
         overflow-x: scroll;
-        -webkit-overflow-scrolling: touch; 
+        -webkit-overflow-scrolling: touch;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 20%;
+
         li {
             display: inline-block;
             &:not(:last-child) {
