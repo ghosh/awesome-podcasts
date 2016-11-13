@@ -122,13 +122,6 @@ $link-color: #5C7CFA;
   }
 }
 
-@mixin gradient-link() {
-    color: $link-color;
-    background-image: -webkit-linear-gradient(92deg, darken($link-color, 40%), $link-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 
 
 /* ==========================================================================
@@ -159,6 +152,7 @@ body {
     text-align: center;
     h1 {
         font-size: 1.999rem;
+        color: $link-color;
         @media screen and (min-width: 768px) {
             font-size: 2.827rem;
             margin-top: 3.6rem;
@@ -166,7 +160,6 @@ body {
         font-weight: 200;
         margin-top: 2.4rem;
         margin-bottom: 0;
-        @include gradient-link;
     }
     h2 {
         font-size: 0.9rem;

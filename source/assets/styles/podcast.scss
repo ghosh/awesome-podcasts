@@ -50,7 +50,7 @@
       display: inline-block;
       a { 
         text-decoration: none;
-        @include gradient-link;
+        color: $link-color;
         &:hover {
           text-decoration: underline;
         }
