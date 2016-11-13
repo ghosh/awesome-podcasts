@@ -2,23 +2,23 @@
 	<img src="{{thumbnail}}" class="podcast__image" alt="{{name}}">
 	<section class="podcast__content">
 		<h1 class="podcast__name">
-			<a href="{{source}}">{{name}}</a>
+			<a href="{{source}}" target="_blank">{{name}}</a>
 		</h1>
 	    <p class="podcast__desc">
 			{{description}}
 		</p>
     	<ul class="podcast__link">
 			{{#if itunes}}
-				<li><a href="{{itunes}}">iTunes</a></li>
+				<li><a href="{{itunes}}" target="_blank">iTunes</a></li>
 			{{/if}}
 			{{#if rss}}
-				<li><a href="{{rss}}">RSS</a></li>
+				<li><a href="{{rss}}" target="_blank">RSS</a></li>
 			{{/if}}
 			{{#if android}}
-				<li><a href="{{android}}">Android</a></li>
+				<li><a href="{{android}}" target="_blank">Android</a></li>
 			{{/if}}
 			{{#if soundcloud}}
-				<li><a href="{{soundcloud}}">Soundcloud</a></li>
+				<li><a href="{{soundcloud}}" target="_blank">Soundcloud</a></li>
 			{{/if}}
 		</ul>
   	</section>
