@@ -923,5 +923,15 @@
         "source": "http://www.motionandmeaning.io/",
         "itunes": "https://itunes.apple.com/us/podcast/motion-and-meaning-podcast/id1010491067?mt=2",
         "rss": "http://feeds.soundcloud.com/users/soundcloud:users:152665386/sounds.rss"
+    },
+    {
+        "name": "Workmode",
+        "thumbnail": "http://a3.mzstatic.com/us/r30/Music71/v4/67/ed/ca/67edca54-9443-bec0-4f7d-8e5008bbe632/cover170x170.jpeg",
+        "description": "A series of conversations with leading design, tech and cultural creators on how they work. Hosted by Alex Nemeroff, Co-Founder of Dynamo, a digital agency in Montreal, Canada.",
+        "category": "Business",
+        "source": "http://workmode.show/",
+        "itunes": "https://itunes.apple.com/us/podcast/workmode/id1149475096",
+        "android": "https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ijzdk64m3vfnuohvqwwl5rn56au?t=Workmode",
+        "rss": "http://feeds.soundcloud.com/users/soundcloud:users:121517753/sounds.rss"
     }]
 }
