@@ -142,10 +142,6 @@ body {
         margin-top: 2.4rem;
         margin-bottom: 0;
         color: $link-color;
-        background-image: -webkit-linear-gradient(92deg, $link-color, lighten($link-color, 40%));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: hue 60s infinite linear;
     }
     h2 {
         font-size: 1rem;
@@ -153,6 +149,12 @@ body {
         margin-top: 0.5rem;
         margin-bottom: 2.4rem;
     }
+}
+.animate-color {
+    background-image: -webkit-linear-gradient(92deg, $link-color, lighten($link-color, 40%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 60s infinite linear;
 }
 @keyframes hue {
   from {
@@ -203,7 +205,6 @@ body {
     }
 	&__image {
 		margin: 0;
-		background-image: url('https://d1eedt7bo0oujw.cloudfront.net/art?s=171a4ed41021b498e981f41909e41966bdd1d111b553ee4b5fae9d1a9074ba7a&w=840&u=http%3A%2F%2Fwww.techradiopodcast.com%2Fwp-content%2Fuploads%2F2016%2F03%2FTech_Radio_PodcastLogo_2015.png');
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
