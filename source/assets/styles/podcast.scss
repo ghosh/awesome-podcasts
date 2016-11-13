@@ -1,4 +1,6 @@
 .podcast {
+  display: flex;
+  align-items: flex-start;
   background-color: #fff;
   border: 1px solid #DEE2E6;
   padding: 1rem;
@@ -17,9 +19,6 @@
     height: 80px;
     margin-right: 1rem;
     border-radius: 3px;
-    float: left;
-    display: inline-block;
-    background-size: contain;
   }
   
   &__content {
