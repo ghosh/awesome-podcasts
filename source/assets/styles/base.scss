@@ -204,7 +204,7 @@ body {
 	padding-left: 0;
 	column-count: 1;
     column-gap: 1rem;
-    column-fill: auto;
+    column-fill: balance;
     @media screen and (min-width: 640px) {
         column-count: 2;
     }
@@ -214,7 +214,7 @@ body {
 	> li {
 		break-inside: avoid;
 		margin-bottom: 1rem;
-		display: inline-block;
+		display: inline-block; /* Weird bug */
         width: 100%;
 	}
 }
