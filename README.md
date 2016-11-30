@@ -24,6 +24,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   99% Invisible (99 Percent Invisible) is a weekly exploration of the process and power of design and architecture. From award winning producer Roman Mars, KALW in San Francisco, and Radiotopia from PRX.   
       [iTunes](https://itunes.apple.com/us/podcast/id394775318)
        • [RSS](http://99percentinvisible.org/feed/)
+       • [Soundcloud](https://soundcloud.com/roman-mars/)
 
 - **[Adventures In Design](http://www.adventuresindesignmarket.com/)**  
   Graphic design gossip and artistic growing pains through the eyes of two handsome DIY poster designers and their friends.  
@@ -32,6 +33,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 - **[Beyond This Point](http://beyondthispoint.design/)**  
   Beyond This Point is a series of conversations engaging the creative thinkers who inspire us. Each episode, Gabriel Stromberg, Creative Director of Civilization, sits down with artists, business owners, designers, and leaders of all types to put a spotlight on different ways of seeing, thinking, and making.  
       [iTunes](https://itunes.apple.com/us/podcast/beyond-this-point/id1065144310)
+       • [Soundcloud](https://soundcloud.com/beyondthispoint_design)
 
 - **[BizCraft](http://unmatchedstyle.com/bizcraft)**  
   The bi-weekly podcast. hosted by Carl Smith of nGen Works and Gene Crawford of UnmatchedStyle. The primary topic is the business side of digital design.  
@@ -67,6 +69,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   A weekly podcast about products from a unique designer perspective! Your hosts are Chris Liu and Jonathan Shariat. Each week, we will go through a product and talk about the experience and hopefully it will be interesting and informative, along with entertaining! So join us here every week!  
       [iTunes](https://itunes.apple.com/us/podcast/design-review/id947753823?mt&#x3D;2)
        • [RSS](http://www.designreviewpodcast.com/design-review.rss)
+       • [Soundcloud](https://soundcloud.com/design-review)
 
 - **[Incremental UX](http://incrementalux.com/podcast/)**  
   Hosted by Vinay Raghu. This podcast learns from people in the industry. Hour long episodes dive deep into specific topics with industry experts   
@@ -129,6 +132,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 - **[UX Discovery Session](http://uxdiscoverysession.com/)**  
   A discovery session is an opportunity to learn about a relevant topic, generate ideas that expand a new technique or practice, or brainstorm concepts and ideas for the next new thing.  
       [iTunes](https://itunes.apple.com/ca/podcast/discovery-session...-by-gerard/id693746926?mt&#x3D;2&amp;ign-mpt&#x3D;uo%3D4)
+       • [Soundcloud](https://soundcloud.com/uxdiscoverysession)
 
 - **[UX Mastery](http://uxmastery.com/category/podcast/)**  
   UX Mastery is a website that hosts a lot of useful articles and content related to user experience design. The site also has an infrequently updated podcast.  
@@ -147,11 +151,13 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 - **[UX and Growth](http://www.uxandgrowth.com/)**  
   Every Monday, HubSpot Design, UX, &amp; Growth geeks Matt Rheault, Austin Knight, and Geoff Daigle sit down for a couple of beers while discussing User Experience and Growth tactics.  
       [iTunes](https://itunes.apple.com/us/podcast/ux-and-growth-podcast/id1016143291?mt&#x3D;2)
+       • [Soundcloud](https://soundcloud.com/ux-and-growth)
 
 - **[Working File](https://workingfile.co/)**  
   A podcast about design practice and its relationship to the world.  
       [iTunes](https://itunes.apple.com/us/podcast/working-file/id1095159618)
        • [RSS](http://feed.workingfile.co/workingfile)
+       • [Soundcloud](https://soundcloud.com/workingfile)
 
 - **[Young Guns Show](http://younggunsshow.com/)**  
   The Young Guns Show aims to feature and inspire the young guns in the web industry — the guys and gals that aren&#x27;t waiting for &quot;someday&quot; to do amazing things.  
@@ -346,6 +352,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 - **[Dorm Room Tycoon](http://drt.fm/)**  
   Interviews that cut to the chase and extract wisdom. Learning from the most influential innovators. Hosted by William Channer.  
       [iTunes](https://itunes.apple.com/gb/podcast/dorm-room-tycoon/id355125543)
+       • [Soundcloud](https://soundcloud.com/dormroomtycoon)
 
 - **[Giant Robots Smashing into other Giant Robots Podcast](http://giantrobots.fm/)**  
   The Giant Robots Smashing into Other Giant Robots podcast is a weekly technical podcast discussing development, design, and the business of software development. Hosted by Ben Orenstein, who is joined each week by developers and designers from thoughtbot and beyond.  
@@ -360,18 +367,22 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   Go Media&#x27;s Bryan Garvin sits down with members of the Go Media team and community to discuss the business of design and how to improve the quality of your work and life.  
       [iTunes](https://itunes.apple.com/podcast/id561456109)
        • [RSS](http://gomedia.com/zine/podcast/feed/)
+       • [Soundcloud](https://soundcloud.com/go_media)
 
 - **[Inside Intercom](https://www.intercom.io/podcast)**  
   Conversations with practitioners from the worlds of product management, design, startups and marketing.  
       [iTunes](https://itunes.apple.com/ie/podcast/inside-intercom-podcast/id996103731)
+       • [Soundcloud](https://soundcloud.com/intercom/)
 
 - **[Pencil vs Pixel](http://pencilvspixel.com/)**  
   Pencil vs Pixel is where creation meets creators. A podcast and resource for the originators, the tinkerers, the makers of the world to share the process, the principle and the payoff in doing what we do. It’s the juncture of idea and result, where builders and doers of things both analog and digital discuss the way we make things, experience challenges and wins.  
       [iTunes](https://itunes.apple.com/us/podcast/pencil-vs-pixel/id731298028#)
+       • [Soundcloud](https://soundcloud.com/pencilvspixel)
 
 - **[Product Hunt Radio](https://www.producthunt.com/radio)**  
   Product Hunt Radio (PHR) is for the product geeks. Each week Ryan Hoover and Erik Torenberg are joined by founders, investors, and product people in the startup community &amp; beyond to chat about products, technology, and the people who make them.  
       [iTunes](https://itunes.apple.com/us/podcast/product-hunt/id862714883)
+       • [Soundcloud](https://soundcloud.com/product-hunt)
 
 - **[Product People](http://productpeople.tv/)**  
   A podcast focused on great products and the people who make them  
@@ -407,6 +418,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   The Fizzle Show is a podcast for creative entrepreneurs and honest business builders who want to earn a living doing something they care about.  
       [iTunes](https://itunes.apple.com/us/podcast/fizzle-show-honest-online/id656726654)
        • [RSS](http://feeds.soundcloud.com/users/soundcloud:users:71269227/sounds.rss)
+       • [Soundcloud](https://soundcloud.com/fizzleco/sets/the-fizzle-show)
 
 - **[The Freelancers&#x27; Show](https://devchat.tv/freelancers)**  
   Weekly discussion by freelancers and professionals about running a business, finding clients, marketing, and lifestyle related to being a freelancer.  
@@ -440,6 +452,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   We live in the future, where drones skim the sky, corporations enter the space race, and smart watches track our every movement. But how? And why? What&#x27;s Tech invites experts to explain the technology bit by bit, in clear, brief, enjoyable audio nuggets. These days, technology is everywhere. Let&#x27;s make sense of what&#x27;s around us.  
       [iTunes](https://itunes.apple.com/us/podcast/whats-tech/id966621017?mt&#x3D;2)
        • [RSS](http://feeds.podtrac.com/SCOrL45pOotI)
+       • [Soundcloud](https://soundcloud.com/whatstech)
 
 - **[Working Out](http://workingoutpodcast.com/)**  
   Join Ashley Baxter and Paddy Donnelly on a journey to figure out how to create a business doing what you love. Is it possible to make a living from your hobby? On Working out, Ashley &amp; Paddy discuss their own personal journeys in creating their passion-based business. This is about the expedition, the here and now, the daily challenges and achievements towards getting paid for your passion.  
@@ -451,6 +464,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
       [iTunes](https://itunes.apple.com/us/podcast/workmode/id1149475096)
        • [RSS](http://feeds.soundcloud.com/users/soundcloud:users:121517753/sounds.rss)
        • [Android](https://goo.gl/app/playmusic?ibi&#x3D;com.google.PlayMusic&amp;isi&#x3D;691797987&amp;ius&#x3D;googleplaymusic&amp;link&#x3D;https://play.google.com/music/m/Ijzdk64m3vfnuohvqwwl5rn56au?t&#x3D;Workmode)
+       • [Soundcloud](https://soundcloud.com/dynamo-14)
 
 
 
@@ -459,6 +473,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 - **[99U](http://99u.com/category/podcast)**  
   Once in a while, 99U sits down with a leading creative, thinker, or entrepreneur to delve deep into their one-of-a-kind insights about the creative process.  
       [iTunes](https://itunes.apple.com/in/podcast/the-99u-podcast/id886171440?mt&#x3D;2)
+       • [Soundcloud](https://soundcloud.com/99u)
 
 - **[After the Jump](http://heritageradionetwork.org/series/after-the-jump/)**  
   Through a series of interviews with designers, store owners and up-and-coming members of the creative community, Grace will delve deeper into the world of independent artists. From exploring the day-to-day lives of contemporary makers to discussing the challenges they face, After the Jump will take the conversation off the screen and into real life.  
@@ -487,6 +502,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   A podcast focused on interesting people and the innovative ways they achieve success.  
       [iTunes](https://itunes.apple.com/ca/podcast/hacktostart/id929857801)
        • [RSS](http://hacktostart.com/rss/)
+       • [Soundcloud](https://soundcloud.com/hacktostart)
 
 - **[Happy Monday](http://www.happymondaypodcast.com/)**  
   A new, short-burst, industry podcast available every Monday from 7am GMT.  
@@ -506,6 +522,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
 - **[Nice To Meet You](http://www.vanschneider.com/show/)**  
   Nice To Meet You is a personal conversation based podcasts with makers, creators and no bullshitters  
       [iTunes](https://itunes.apple.com/us/podcast/nice-to-meet-you/id1050960981?mt&#x3D;2)
+       • [Soundcloud](https://soundcloud.com/tobiasvanschneider)
 
 - **[Non Breaking Space Show](http://goodstuff.fm/nbsp)**  
   Seeking out the best, brightest, and smartest creative people on digital art, design, and development. From workflows to life hacks, we examine why they do what they do and how they did it. Hosted by Chris Enns, Christopher Schmitt and Sam Kapila.  
@@ -530,6 +547,7 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
   The Gently Mad is a show about life, business &amp; entrepreneurship without the bullshit. New episodes every Monday, Wednesday and Friday.  
       [iTunes](https://itunes.apple.com/us/podcast/gently-mad-life-business-entrepreneurship/id950222137)
        • [RSS](http://tgmpodcast.libsyn.com/rss)
+       • [Soundcloud](https://soundcloud.com/thegentlymad)
 
 - **[The New Disruptors](http://www.muleradio.net/newdisruptors/)**  
   The New Disruptors tells stories that provide practical inspiration about the way that creative people and producers connect with audiences to perform, cajole, convince, sell, and interact using new methods. Hosted by Glenn Fleishman, a regular contributor to The Economist and the editor and publisher of The Magazine. Produced by Aperiodical LLC.  

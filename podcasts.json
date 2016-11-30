@@ -38,7 +38,8 @@
         "description": "Every Monday, HubSpot Design, UX, & Growth geeks Matt Rheault, Austin Knight, and Geoff Daigle sit down for a couple of beers while discussing User Experience and Growth tactics.",
         "category": "Design",
         "source": "http://www.uxandgrowth.com/",
-        "itunes": "https://itunes.apple.com/us/podcast/ux-and-growth-podcast/id1016143291?mt=2"
+        "itunes": "https://itunes.apple.com/us/podcast/ux-and-growth-podcast/id1016143291?mt=2",
+        "soundcloud": "https://soundcloud.com/ux-and-growth"
     },
     {
         "name": "UX Pod",
@@ -60,7 +61,8 @@
         "description": "A discovery session is an opportunity to learn about a relevant topic, generate ideas that expand a new technique or practice, or brainstorm concepts and ideas for the next new thing.",
         "category": "Design",
         "source": "http://uxdiscoverysession.com/",
-        "itunes": "https://itunes.apple.com/ca/podcast/discovery-session...-by-gerard/id693746926?mt=2&ign-mpt=uo%3D4"
+        "itunes": "https://itunes.apple.com/ca/podcast/discovery-session...-by-gerard/id693746926?mt=2&ign-mpt=uo%3D4",
+        "soundcloud": "https://soundcloud.com/uxdiscoverysession"
     },
     {
         "name": "Incremental UX",
@@ -193,6 +195,7 @@
         "category": "Lifestyle",
         "source": "http://avclark.com/tgm/",
         "itunes": "https://itunes.apple.com/us/podcast/gently-mad-life-business-entrepreneurship/id950222137",
+        "soundcloud": "https://soundcloud.com/thegentlymad",
         "rss": "http://tgmpodcast.libsyn.com/rss"
     },
     {
@@ -216,6 +219,7 @@
         "category": "Design",
         "source": "http://www.designreviewpodcast.com/",
         "itunes": "https://itunes.apple.com/us/podcast/design-review/id947753823?mt=2",
+        "soundcloud": "https://soundcloud.com/design-review",
         "rss": "http://www.designreviewpodcast.com/design-review.rss"
     },
     {
@@ -241,6 +245,7 @@
         "category": "Design",
         "source": "http://99percentinvisible.org/",
         "itunes": "https://itunes.apple.com/us/podcast/id394775318",
+        "soundcloud": "https://soundcloud.com/roman-mars/",
         "rss": "http://99percentinvisible.org/feed/"
     },
     {
@@ -257,6 +262,7 @@
         "category": "Business",
         "source": "https://fizzle.co/show",
         "itunes": "https://itunes.apple.com/us/podcast/fizzle-show-honest-online/id656726654",
+        "soundcloud": "https://soundcloud.com/fizzleco/sets/the-fizzle-show",
         "rss": "http://feeds.soundcloud.com/users/soundcloud:users:71269227/sounds.rss"
     },
     {
@@ -272,7 +278,8 @@
         "description": "Pencil vs Pixel is where creation meets creators. A podcast and resource for the originators, the tinkerers, the makers of the world to share the process, the principle and the payoff in doing what we do. It’s the juncture of idea and result, where builders and doers of things both analog and digital discuss the way we make things, experience challenges and wins.",
         "category": "Business",
         "source": "http://pencilvspixel.com/",
-        "itunes": "https://itunes.apple.com/us/podcast/pencil-vs-pixel/id731298028#"
+        "itunes": "https://itunes.apple.com/us/podcast/pencil-vs-pixel/id731298028#",
+        "soundcloud": "https://soundcloud.com/pencilvspixel"
     },
     {
         "name": "PageBreak Podcast",
@@ -398,7 +405,8 @@
         "description": "Nice To Meet You is a personal conversation based podcasts with makers, creators and no bullshitters",
         "category": "Lifestyle",
         "source": "http://www.vanschneider.com/show/",
-        "itunes": "https://itunes.apple.com/us/podcast/nice-to-meet-you/id1050960981?mt=2"
+        "itunes": "https://itunes.apple.com/us/podcast/nice-to-meet-you/id1050960981?mt=2",
+        "soundcloud": "https://soundcloud.com/tobiasvanschneider"
     },
     {
         "name": "Immutable",
@@ -437,7 +445,8 @@
         "description": "Beyond This Point is a series of conversations engaging the creative thinkers who inspire us. Each episode, Gabriel Stromberg, Creative Director of Civilization, sits down with artists, business owners, designers, and leaders of all types to put a spotlight on different ways of seeing, thinking, and making.",
         "category": "Design",
         "source": "http://beyondthispoint.design/",
-        "itunes": "https://itunes.apple.com/us/podcast/beyond-this-point/id1065144310"
+        "itunes": "https://itunes.apple.com/us/podcast/beyond-this-point/id1065144310",
+        "soundcloud": "https://soundcloud.com/beyondthispoint_design"
     },
     {
         "name": "Layout",
@@ -452,14 +461,16 @@
         "description": "Interviews that cut to the chase and extract wisdom. Learning from the most influential innovators. Hosted by William Channer.",
         "category": "Business",
         "source": "http://drt.fm/",
-        "itunes": "https://itunes.apple.com/gb/podcast/dorm-room-tycoon/id355125543"
+        "itunes": "https://itunes.apple.com/gb/podcast/dorm-room-tycoon/id355125543",
+        "soundcloud": "https://soundcloud.com/dormroomtycoon"
     },
     {
         "name": "99U",
         "description": "Once in a while, 99U sits down with a leading creative, thinker, or entrepreneur to delve deep into their one-of-a-kind insights about the creative process.",
         "category": "Lifestyle",
         "source": "http://99u.com/category/podcast",
-        "itunes": "https://itunes.apple.com/in/podcast/the-99u-podcast/id886171440?mt=2"
+        "itunes": "https://itunes.apple.com/in/podcast/the-99u-podcast/id886171440?mt=2",
+        "soundcloud": "https://soundcloud.com/99u"
     },
     {
         "name": "Style Guide",
@@ -491,6 +502,7 @@
         "category": "Lifestyle",
         "source": "http://hacktostart.com/",
         "itunes": "https://itunes.apple.com/ca/podcast/hacktostart/id929857801",
+        "soundcloud": "https://soundcloud.com/hacktostart",
         "rss": "http://hacktostart.com/rss/"
     },
     {
@@ -498,7 +510,8 @@
         "description": "Conversations with practitioners from the worlds of product management, design, startups and marketing.",
         "category": "Business",
         "source": "https://www.intercom.io/podcast",
-        "itunes": "https://itunes.apple.com/ie/podcast/inside-intercom-podcast/id996103731"
+        "itunes": "https://itunes.apple.com/ie/podcast/inside-intercom-podcast/id996103731",
+        "soundcloud": "https://soundcloud.com/intercom/"
     },
     {
         "name": "The Pitch",
@@ -733,7 +746,8 @@
         "description": "Product Hunt Radio (PHR) is for the product geeks. Each week Ryan Hoover and Erik Torenberg are joined by founders, investors, and product people in the startup community & beyond to chat about products, technology, and the people who make them.",
         "category": "Business",
         "source": "https://www.producthunt.com/radio",
-        "itunes": "https://itunes.apple.com/us/podcast/product-hunt/id862714883"
+        "itunes": "https://itunes.apple.com/us/podcast/product-hunt/id862714883",
+        "soundcloud": "https://soundcloud.com/product-hunt"
     },
     {
         "name": "What's Tech?",
@@ -741,6 +755,7 @@
         "category": "Business",
         "source": "http://www.theverge.com/whatstech",
         "itunes": "https://itunes.apple.com/us/podcast/whats-tech/id966621017?mt=2",
+        "soundcloud": "https://soundcloud.com/whatstech",
         "rss": "http://feeds.podtrac.com/SCOrL45pOotI"
     },
     {
@@ -794,6 +809,7 @@
         "category": "Business",
         "source": "http://gomedia.com/zine/podcast/",
         "itunes": "https://itunes.apple.com/podcast/id561456109",
+        "soundcloud": "https://soundcloud.com/go_media",
         "rss": "http://gomedia.com/zine/podcast/feed/"
     },
     {
@@ -826,6 +842,7 @@
         "source": "http://workmode.show/",
         "itunes": "https://itunes.apple.com/us/podcast/workmode/id1149475096",
         "android": "https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ijzdk64m3vfnuohvqwwl5rn56au?t=Workmode",
+        "soundcloud": "https://soundcloud.com/dynamo-14",
         "rss": "http://feeds.soundcloud.com/users/soundcloud:users:121517753/sounds.rss"
     },
     {
@@ -834,6 +851,7 @@
         "category": "Design",
         "source": "https://workingfile.co/",
         "itunes": "https://itunes.apple.com/us/podcast/working-file/id1095159618",
+        "soundcloud": "https://soundcloud.com/workingfile",
         "rss": "http://feed.workingfile.co/workingfile"
     }]
 }
