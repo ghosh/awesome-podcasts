@@ -53,6 +53,7 @@ gulp.task('mutateData', function() {
         if (rows[i]['thumbnail']) { podcasts[i]['thumbnail'] = rows[i]['thumbnail']; }
         if (rows[i]['itunes']) { podcasts[i]['itunes'] = rows[i]['itunes']; }
         if (rows[i]['android']) { podcasts[i]['android'] = rows[i]['android']; }
+        if (rows[i]['soundcloud']) { podcasts[i]['soundcloud'] = rows[i]['soundcloud']; }
         if (rows[i]['rss']) { podcasts[i]['rss'] = rows[i]['rss']; }
       }
       
