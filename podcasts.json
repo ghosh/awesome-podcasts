@@ -827,5 +827,13 @@
         "itunes": "https://itunes.apple.com/us/podcast/workmode/id1149475096",
         "android": "https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ijzdk64m3vfnuohvqwwl5rn56au?t=Workmode",
         "rss": "http://feeds.soundcloud.com/users/soundcloud:users:121517753/sounds.rss"
+    },
+    {
+        "name": "Working File",
+        "description": "A podcast about design practice and its relationship to the world.",
+        "category": "Design",
+        "source": "https://workingfile.co/",
+        "itunes": "https://itunes.apple.com/us/podcast/working-file/id1095159618",
+        "rss": "http://feed.workingfile.co/workingfile"
     }]
 }
