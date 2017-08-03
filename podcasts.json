@@ -190,6 +190,14 @@
         "itunes": "https://itunes.apple.com/us/podcast/the-deep-end-design-podcasts/id494747654?mt=2"
     },
     {
+        "name": "Inspect",
+        "description": "Inspect is a podcast about web development, design, technology & some other random stuff hosted by Ajay Karwal.",
+        "category": "Design and Dev",
+        "source": "http://inspect.fm/episodes/",
+        "itunes": "https://itunes.apple.com/gb/podcast/inspect/id1213377482",
+        "rss": "http://inspect.fm/feed.xml"
+    },
+    {
         "name": "The Gently Mad",
         "description": "The Gently Mad is a show about life, business & entrepreneurship without the bullshit. New episodes every Monday, Wednesday and Friday.",
         "category": "Lifestyle",
