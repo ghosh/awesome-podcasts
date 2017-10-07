@@ -853,5 +853,86 @@
         "itunes": "https://itunes.apple.com/us/podcast/working-file/id1095159618",
         "soundcloud": "https://soundcloud.com/workingfile",
         "rss": "http://feed.workingfile.co/workingfile"
-    }]
+    },
+    {
+        "name": "/dev/hell",
+        "description": "The Development Hell Podcast. Chris Hartjes and Ed Finkler are trapped in Development Hell. They record their freewheeling, uncensored discussions on programming the web, so future generations can learn from their failures.",
+        "category": "Development",
+        "source": "http://devhell.info/",
+        "itunes": "https://itunes.apple.com/us/podcast/dev-hell/id489840699",
+        "rss": "http://feeds.devhell.info/devhell-podcast"
+    },
+    {
+        "name": "Coder Radio",
+        "description": "A weekly talk show taking a pragmatic look at the art and business of Software Development and related technologies. Hosted on the Jupiter Broadcasting network.",
+        "category": "Development",
+        "source": "http://www.jupiterbroadcasting.com/show/coderradio/",
+        "itunes": "https://itunes.apple.com/us/podcast/coder-radio-mp3/id534941512",
+        "rss": "http://feeds.feedburner.com/coderradiomp3"
+    },
+    {
+        "name": "Founders Talk",
+        "description": "An interview podcast, featuring in-depth, one on one, conversations with Founders.",
+        "category": "Business",
+        "source": "https://changelog.com/founderstalk",
+        "itunes": "https://itunes.apple.com/us/podcast/founders-talk/id396900791",
+        "rss": "https://changelog.com/founderstalk/feed"
+    },
+    {
+        "name": "Hanselminutes",
+        "description": "An interview podcast, with Scott Hanselman. Scott is a web developer who has been blogging at https://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon.",
+        "category": "Lifestyle",
+        "source": "https://www.hanselminutes.com/",
+        "itunes": "https://itunes.apple.com/us/podcast/hanselminutes/id117488860",
+        "rss": "http://feeds.podtrac.com/9dPm65vdpLL1"
+    },
+    {
+        "name": "Hanselminutes",
+        "description": "An interview podcast, with Scott Hanselman. Scott is a web developer who has been blogging at https://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon.",
+        "category": "Lifestyle",
+        "source": "https://www.hanselminutes.com/",
+        "itunes": "https://itunes.apple.com/us/podcast/hanselminutes/id117488860",
+        "rss": "http://feeds.podtrac.com/9dPm65vdpLL1"
+    },
+    {
+        "name": "Laravel News Podcast",
+        "description": "The Laravel News Podcast brings you all the latest news and events related to Laravel.",
+        "category": "Development",
+        "source": "https://laravel-news.com/podcast/",
+        "itunes": "https://itunes.apple.com/us/podcast/laravel-news-podcast/id1051289963",
+        "rss": "https://rss.simplecast.com/podcasts/1356/rss"
+    },
+    {
+        "name": "Syntax",
+        "description": "Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like React, to the latest advancements in CSS to simplifying web tooling.",
+        "category": "Development",
+        "source": "https://syntax.fm/",
+        "itunes": "https://itunes.apple.com/ca/podcast/syntax-tasty-web-development-treats/id1253186678",
+        "rss": "https://feed.syntax.fm/rss"
+    },
+    {
+        "name": "The Five-Minute Geek Show",
+        "description": "Matt Stauffer, unabashedly geeky, 5 minutes, twice a week. Frontend dev, backend dev, audio, design, podcasts--all fair game.",
+        "category": "Development",
+        "source": "http://fiveminutegeekshow.com/",
+        "itunes": "https://itunes.apple.com/us/podcast/the-five-minute-geek-show/id952727637",
+        "rss": "https://rss.simplecast.com/podcasts/335/rss"
+    },
+    {
+        "name": "Three Devs and a Maybe",
+        "description": "Join us each week as we discuss all things software development. Frequently joined by a far more intelligent guest on the show's topic, we by no means know everything, but love what we do. Topics range from daily developer life, PHP, frameworks, testing, good software design and our experiences using many other programming languages.",
+        "category": "Development",
+        "source": "http://threedevsandamaybe.com/",
+        "itunes": "https://itunes.apple.com/gb/podcast/three-devs-maybe-introduction/id729464185",
+        "rss": "http://threedevsandamaybe.com/podcast.xml"
+    },
+    {
+        "name": "Twenty Percent Time",
+        "description": "Two developers from Tighten (https://tighten.co/) discuss one programming topic every Friday in less than 20 minutes.",
+        "category": "Development",
+        "source": "http://twentypercent.fm/",
+        "itunes": "https://itunes.apple.com/us/podcast/twenty-percent-time/id1231652815",
+        "rss": "http://twentypercent.fm/rss"
+    }
+    ]
 }
