@@ -253,10 +253,10 @@ To include a podcast, please add to to the bottom of the `podcasts.json` file. *
       [iTunes](https://itunes.apple.com/us/podcast/ruby-rogues/id705335155)
        • [RSS](http://feeds.feedwrench.com/RubyRogues.rss)
 
-- **[Web of Tomorrow](http://www.weboftomorrowpodcast.com/)**  
+- **[Web of Tomorrow](https://www.orbit.fm/weboftomorrow/)**  
   A podcast about JavaScript, web development, web design, and technology.  
       [iTunes](https://itunes.apple.com/us/podcast/web-of-tomorrow/id1033636563)
-       • [RSS](http://www.weboftomorrowpodcast.com/feed.rss)
+       • [RSS](https://www.orbit.fm/weboftomorrow/feed.rss)
 
 
 

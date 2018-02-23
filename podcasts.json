@@ -643,9 +643,9 @@
         "name": "Web of Tomorrow",
         "description": "A podcast about JavaScript, web development, web design, and technology.",
         "category": "Development",
-        "source": "http://www.weboftomorrowpodcast.com/",
+        "source": "https://www.orbit.fm/weboftomorrow/",
         "itunes": "https://itunes.apple.com/us/podcast/web-of-tomorrow/id1033636563",
-        "rss": "http://www.weboftomorrowpodcast.com/feed.rss"
+        "rss": "https://www.orbit.fm/weboftomorrow/feed.rss"
     },
     {
         "name": "New Rustacean",
