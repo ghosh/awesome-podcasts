@@ -853,5 +853,13 @@
         "itunes": "https://itunes.apple.com/us/podcast/working-file/id1095159618",
         "soundcloud": "https://soundcloud.com/workingfile",
         "rss": "http://feed.workingfile.co/workingfile"
+    },
+    {
+        "name": "More Than Just Code",
+        "description": "A show about mobile development (& for those of you driving at home.)",
+        "category": "Development",
+        "source": "http://mtjc.fm/",
+        "itunes": "https://itunes.apple.com/ca/podcast/mtjc-podcast-podcast-about/id906987516?mt=2",
+        "rss": "http://feeds.feedburner.com/MtjcPodcast-APodcastAboutIosMacDevelopment"
     }]
 }
