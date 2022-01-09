@@ -853,5 +853,13 @@
         "itunes": "https://itunes.apple.com/us/podcast/working-file/id1095159618",
         "soundcloud": "https://soundcloud.com/workingfile",
         "rss": "http://feed.workingfile.co/workingfile"
+    },
+    {
+        "name": "Working Code",
+        "description": "We want to entertain, inspire, and motivate you -- or to put it another way, make your coding career more enjoyable.",
+        "category": "Lifestyle",
+        "source": "https://workingcode.dev/",
+        "itunes": "https://podcasts.apple.com/us/podcast/working-code/id1544142288",
+        "rss": "https://feeds.redcircle.com/30227421-bc27-45c2-bfb4-861def7dd4cc"
     }]
 }
