@@ -854,4 +854,13 @@
         "soundcloud": "https://soundcloud.com/workingfile",
         "rss": "http://feed.workingfile.co/workingfile"
     }]
+      },
+    {
+        "name": "Select*",
+        "description": "Your resource for innovative tech & developer topics.",
+        "category": "Technology",
+        "source": "https://www.harperdb.io/blog-categories/podcast",
+        "itunes": "https://podcasts.apple.com/us/podcast/select-your-resource-for-innovative-tech-developer/id1547490924",
+        "rss": "https://rss.com/podcasts/harperdb-select-star/"
+    }]
 }
